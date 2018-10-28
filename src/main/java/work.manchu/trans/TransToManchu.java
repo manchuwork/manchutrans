@@ -2,7 +2,7 @@ package work.manchu.trans;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
-import work.manchu.parse.StringUtil;
+import work.manchu.util.StringUtil;
 import work.manchu.util.LangUtil;
 
 import java.io.IOException;
