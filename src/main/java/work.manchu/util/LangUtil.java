@@ -15,4 +15,9 @@ public class LangUtil {
 
         return "a".compareTo(c) <= 0 && "z".compareTo(c) >= 0 || "A".compareTo(c) <= 0 && "Z".compareTo(c) >= 0;
     }
+
+    public static boolean isEnLowerCase(String c) {
+        return "a".compareTo(c) <= 0 && "z".compareTo(c) >= 0;
+
+    }
 }

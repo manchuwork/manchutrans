@@ -11,6 +11,8 @@ public class Main {
 
         TransNodeProcesser transNodeProcesser = new TransNodeProcesser();
         String ret = transNodeProcesser.trans("Sxd");
-        log.info("ret2:{}",ret);
+        log.info("ret3:{}",ret);
+
+//        MergeFiles.merge("input","output.txt");
     }
 }
