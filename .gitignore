@@ -25,5 +25,5 @@ hs_err_pid*
 
 .gitignore
 .idea/
-pom.xml
-src/
+*.iml
+
