@@ -3,7 +3,6 @@ package work.manchu.parse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import work.manchu.util.LangUtil;
-import work.manchu.util.StringUtil;
 
 import java.io.File;
 import java.io.IOException;

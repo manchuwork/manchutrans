@@ -15,7 +15,7 @@ public class TransNodeProcesser implements TransNode{
     List<TransNode> transNodes;
 
     public TransNodeProcesser() throws IOException {
-        transNodes = List.of(new TransFirstReplace(), new TransToManchu());
+        transNodes = List.of(new TransSimbolReplace(),new TransFirstReplace(), new TransToManchu());
     }
     @Override
     public String trans(String text) throws UnsupportedEncodingException {

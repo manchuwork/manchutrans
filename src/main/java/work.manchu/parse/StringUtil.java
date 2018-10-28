@@ -1,4 +1,4 @@
-package work.manchu.util;
+package work.manchu.parse;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -12,18 +12,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-/**
- * @author heshen
- */
 @Slf4j
-public class TransFirstReplace implements TransNode {
+public class TransSimbolReplace implements TransNode {
 
     private Map<String,String> map;
 
-    public TransFirstReplace() throws IOException {
+    public TransSimbolReplace() throws IOException {
 
-        Path path = Paths.get("src/main/resources/mulinder_first_trans.properties") ;//TransToManchu.class.getResource("mulinder_first_trans.properties").getPath();
-        log.info("TransFirstReplace, path"+path);
+        Path path = Paths.get("src/main/resources/mnc_symbol_trans.properties") ;//TransToManchu.class.getResource("mulinder_first_trans.properties").getPath();
+        log.info("TransSimbolReplace, path"+path);
         BufferedReader in = Files.newBufferedReader(path);
         Properties tmp = new Properties();
 
@@ -45,7 +42,6 @@ public class TransFirstReplace implements TransNode {
     public String trans(String text) {
 
         String tmp = text;
-
 //        log.info("trans map:{}",map);
         for(String key : map.keySet()){
             tmp = text.replace(key, map.get(key));

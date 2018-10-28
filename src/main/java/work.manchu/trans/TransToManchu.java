@@ -2,7 +2,8 @@ package work.manchu.trans;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
-import work.manchu.util.StringUtil;
+import work.manchu.parse.StringUtil;
+import work.manchu.util.LangUtil;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -32,10 +33,15 @@ public class TransToManchu implements TransNode{
 
         StringBuilder sb = new StringBuilder();
         for (String letter : StringUtil.listOneByOne( text)){
+
+            if(LangUtil.isSimbol(letter)){
+                sb.append(letter);
+                continue;
+            }
             String tmp = map.get(letter);
             if(tmp == null){
-                log.error(letter + ", not found");
-                throw new UnsupportedEncodingException(letter + ", not supported");
+                log.error( "{}, not found,when opt text:{}",letter,text);
+                throw new UnsupportedEncodingException(letter + ", not supported,when opt ,text:"+text);
             }
             sb.append(tmp);
         }
