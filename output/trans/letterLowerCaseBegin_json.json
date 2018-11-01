@@ -4964,11 +4964,11 @@
 {"mnc":"fatan","zhDesc":"脚掌"}
 {"mnc":"fatan deberen","zhDesc":"下贱崽子"}
 {"mnc":"fatar seme","zhDesc":"亲热的样子、跳跃"}
-{"mnc":"fatar＇　seme","zhDesc":"亲热的样子"}
+{"mnc":"fatar'　seme","zhDesc":"亲热的样子"}
 {"mnc":"fatha","zhDesc":"蹄"}
 {"mnc":"fatha","zhDesc":"蹄、掌"}
+{"mnc":"fathas'ambi","zhDesc":"焦燥、烦燥"}
 {"mnc":"fathashambi","zhDesc":"焦躁"}
-{"mnc":"fathas＇ambi","zhDesc":"焦燥、烦燥"}
 {"mnc":"fathaxambi","zhDesc":"焦躁、烦躁"}
 {"mnc":"faxxaha amban","zhDesc":"功臣"}
 {"mnc":"faxxambi","zhDesc":"奋勉、勤奋、努力"}
@@ -5094,6 +5094,7 @@
 {"mnc":"feniyen","zhDesc":"捆、群"}
 {"mnc":"feniyen","zhDesc":"捆，群"}
 {"mnc":"fer fer seme","zhDesc":"纷飞、飘飘然"}
+{"mnc":"fer'　fer'　seme","zhDesc":"纷飞，飘飘然"}
 {"mnc":"fere","zhDesc":"底"}
 {"mnc":"fere","zhDesc":"底、底下"}
 {"mnc":"fere","zhDesc":"底，底下"}
@@ -5148,11 +5149,10 @@
 {"mnc":"ferkingge","zhDesc":"多见识者，博学者"}
 {"mnc":"ferkingge","zhDesc":"见识多的"}
 {"mnc":"ferten/feteri","zhDesc":"鼻翅儿"}
-{"mnc":"fer＇　fer＇　seme","zhDesc":"纷飞，飘飘然"}
 {"mnc":"fes'hcn","zhDesc":"笼屉"}
 {"mnc":"fes'hembi","zhDesc":"辛苦"}
 {"mnc":"feser seme","zhDesc":"粉碎、惊吓心动"}
-{"mnc":"feser＇　seme","zhDesc":"粉碎，惊吓心动"}
+{"mnc":"feser'　seme","zhDesc":"粉碎，惊吓心动"}
 {"mnc":"fesihelembi","zhDesc":"踢、开拓"}
 {"mnc":"fesihelembi","zhDesc":"踢，开拓，"}
 {"mnc":"fesin","zhDesc":"把子、把柄"}
@@ -5213,7 +5213,7 @@
 {"mnc":"fideme forgoxombi","zhDesc":"调动、调换"}
 {"mnc":"fideme icihiyambi","zhDesc":"调拨"}
 {"mnc":"fideme unggimbi","zhDesc":"调遣"}
-{"mnc":"fideme　forgos＇ombi","zhDesc":"调动，调换"}
+{"mnc":"fideme　forgos'ombi","zhDesc":"调动，调换"}
 {"mnc":"fideme　icihiyambi","zhDesc":"调拨"}
 {"mnc":"fidzcin","zhDesc":"物理"}
 {"mnc":"fifan","zhDesc":"琵琶"}
@@ -5236,14 +5236,14 @@
 {"mnc":"fik seme","zhDesc":"稠密、密集"}
 {"mnc":"fik seme banjimbi","zhDesc":"长得很稠密"}
 {"mnc":"fik seme jalukabi","zhDesc":"填得满满的、塞得满满的"}
+{"mnc":"fik'　fik'","zhDesc":"密密麻麻"}
+{"mnc":"fik'　seme　banjimbi","zhDesc":"长得很稠密"}
+{"mnc":"fik'　seme　jalukabi","zhDesc":"填得满满的，塞得满满的。"}
 {"mnc":"fika","zhDesc":"橄榄"}
 {"mnc":"fikte","zhDesc":"没记性"}
 {"mnc":"fiktu","zhDesc":"嫌隙"}
 {"mnc":"fiktu baimbi","zhDesc":"寻衅、挑衅、求疵"}
 {"mnc":"fiktu　baiimbi","zhDesc":"寻畔，挑畔，求疵"}
-{"mnc":"fik＇　fik＇","zhDesc":"密密麻麻"}
-{"mnc":"fik＇　seme　banjimbi","zhDesc":"长得很稠密"}
-{"mnc":"fik＇　seme　jalukabi","zhDesc":"填得满满的，塞得满满的。"}
 {"mnc":"fila","zhDesc":"揲"}
 {"mnc":"fila","zhDesc":"碟子"}
 {"mnc":"fileku","zhDesc":"火盆"}
@@ -5279,7 +5279,7 @@
 {"mnc":"fisa waxakv","zhDesc":"痒痒挠、不求人"}
 {"mnc":"fisaka biya","zhDesc":"残月"}
 {"mnc":"fisa　amargi　","zhDesc":"背后"}
-{"mnc":"fisa　was＇akuu","zhDesc":"痒痒挠，不求人"}
+{"mnc":"fisa　was'akuu","zhDesc":"痒痒挠，不求人"}
 {"mnc":"fiseke","zhDesc":"枝杈"}
 {"mnc":"fiseku","zhDesc":"飞檐"}
 {"mnc":"fisembuhe jugvn","zhDesc":"栈道"}
@@ -5352,7 +5352,7 @@
 {"mnc":"fiyangga arbun de yasa ilgaxambi","zhDesc":"光彩夺目"}
 {"mnc":"fiyangga faidan","zhDesc":"彩仗、仪仗队"}
 {"mnc":"fiyangga tuhebuku","zhDesc":"流苏"}
-{"mnc":"fiyangga　arbun　de　yasa　ilgas＇ambi","zhDesc":"光彩夺目"}
+{"mnc":"fiyangga　arbun　de　yasa　ilgas'ambi","zhDesc":"光彩夺目"}
 {"mnc":"fiyangga　faiidan","zhDesc":"彩仗，仪仗队"}
 {"mnc":"fiyangga　tuhebuku","zhDesc":"流苏"}
 {"mnc":"fiyanggu","zhDesc":"老生子"}
@@ -5434,7 +5434,7 @@
 {"mnc":"foholon　bilgan","zhDesc":"短期"}
 {"mnc":"foholon　fiyelen","zhDesc":"短篇"}
 {"mnc":"foholon　leolen","zhDesc":"短评"}
-{"mnc":"foholon　s＇u","zhDesc":"短文"}
+{"mnc":"foholon　s'u","zhDesc":"短文"}
 {"mnc":"foifokuu","zhDesc":"钢刀布"}
 {"mnc":"foifombi","zhDesc":"磨小刀"}
 {"mnc":"foihori","zhDesc":"疏忽、偶然"}
@@ -5488,13 +5488,13 @@
 {"mnc":"forgon","zhDesc":"季节、时节、时期、时代、时运、运气"}
 {"mnc":"forgon","zhDesc":"季节，时节，时期，时代，时远，运气"}
 {"mnc":"forgon ton","zhDesc":"运数"}
+{"mnc":"forgos'ombi","zhDesc":"调转，调换，辗转反侧"}
+{"mnc":"forgos'ome　baiitalambi","zhDesc":"机动使用，调用"}
+{"mnc":"forgos'ome　fidembi","zhDesc":"调度"}
+{"mnc":"forgos'ome　fuhas'ambi","zhDesc":"辗转反侧"}
+{"mnc":"forgos'ome　s'urdembi","zhDesc":"循环"}
+{"mnc":"forgos'onggo　holbosun","zhDesc":"转折连词"}
 {"mnc":"forgoshombi","zhDesc":"奔驰"}
-{"mnc":"forgos＇ombi","zhDesc":"调转，调换，辗转反侧"}
-{"mnc":"forgos＇ome　baiitalambi","zhDesc":"机动使用，调用"}
-{"mnc":"forgos＇ome　fidembi","zhDesc":"调度"}
-{"mnc":"forgos＇ome　fuhas＇ambi","zhDesc":"辗转反侧"}
-{"mnc":"forgos＇ome　s＇urdembi","zhDesc":"循环"}
-{"mnc":"forgos＇onggo　holbosun","zhDesc":"转折连词"}
 {"mnc":"forgoxombi","zhDesc":"调转 转换"}
 {"mnc":"forgoxombi","zhDesc":"调转、调换、辗转反侧"}
 {"mnc":"forgoxome baitalambi","zhDesc":"机动使用、调用"}
@@ -5600,11 +5600,11 @@
 {"mnc":"fuhali","zhDesc":"全然、竟然"}
 {"mnc":"fuhali","zhDesc":"全然，竟然"}
 {"mnc":"fuhali","zhDesc":"竟"}
-{"mnc":"fuhas＇ambi","zhDesc":"推敲，推详，倒换"}
+{"mnc":"fuhas'ambi","zhDesc":"推敲，推详，倒换"}
 {"mnc":"fuhaxambi","zhDesc":"推敲、推详、倒换"}
 {"mnc":"fuhen","zhDesc":"醭"}
+{"mnc":"fuhes'embi","zhDesc":"翻腾，打滚"}
 {"mnc":"fuheshembi","zhDesc":"滚"}
-{"mnc":"fuhes＇embi","zhDesc":"翻腾，打滚"}
 {"mnc":"fuhexembi","zhDesc":"翻腾、打滚"}
 {"mnc":"fuhu","zhDesc":"瘊子"}
 {"mnc":"fuhun","zhDesc":"怒容"}
@@ -5864,8 +5864,8 @@
 {"mnc":"fusihuun","zhDesc":"低贱"}
 {"mnc":"fusihuun","zhDesc":"卑贱，下贱，往下，朝下，以下"}
 {"mnc":"fusihuun/wasihuun","zhDesc":"往下"}
+{"mnc":"fusihuus'ambi","zhDesc":"轻视，蔑视"}
 {"mnc":"fusihuushambi/weihukelembi","zhDesc":"轻视"}
-{"mnc":"fusihuus＇ambi","zhDesc":"轻视，蔑视"}
 {"mnc":"fusihuxame tuwambi","zhDesc":"歧视"}
 {"mnc":"fusihvn","zhDesc":"卑贱、下贱、往下、朝下、以下"}
 {"mnc":"fusihvxambi","zhDesc":"轻视、蔑视"}
@@ -5907,13 +5907,22 @@
 {"mnc":"fuzhurungga","zhDesc":"端庄的"}
 {"mnc":"fu　hecen","zhDesc":"墙垣"}
 {"mnc":"g'ada","zhDesc":"疙瘩"}
+{"mnc":"g'ada","zhDesc":"疙瘩"}
+{"mnc":"g'ada moo","zhDesc":"大头棒"}
 {"mnc":"g'ada moo","zhDesc":"大头棒"}
 {"mnc":"g'ag'alambi","zhDesc":"母鸡叫"}
+{"mnc":"g'ag'alambi","zhDesc":"母鸡叫"}
+{"mnc":"g'an","zhDesc":"钢"}
 {"mnc":"g'an","zhDesc":"钢"}
 {"mnc":"g'an sele","zhDesc":"钢铁"}
+{"mnc":"g'an sele","zhDesc":"钢铁"}
+{"mnc":"g'anfi","zhDesc":"钢笔"}
 {"mnc":"g'anfi","zhDesc":"钢笔"}
 {"mnc":"g'odong g'odong","zhDesc":"硬邦邦"}
+{"mnc":"g'odong g'odong","zhDesc":"硬邦邦"}
 {"mnc":"g'ogin","zhDesc":"鳏夫"}
+{"mnc":"g'ogin","zhDesc":"鳏夫"}
+{"mnc":"g'oki","zhDesc":"锅饼"}
 {"mnc":"g'oki","zhDesc":"锅饼"}
 {"mnc":"gabshambi","zhDesc":"诉苦"}
 {"mnc":"gabsihiyalambi","zhDesc":"轻装"}
@@ -6130,6 +6139,8 @@
 {"mnc":"garun","zhDesc":"长腰靴"}
 {"mnc":"garungguu","zhDesc":"鸾"}
 {"mnc":"gar　gir","zhDesc":"众人争论声，乌鸦啼鸣声"}
+{"mnc":"gas'an","zhDesc":"乡"}
+{"mnc":"gas'an　tokso","zhDesc":"村庄，乡村"}
 {"mnc":"gas'han","zhDesc":"灾"}
 {"mnc":"gas'huumbi","zhDesc":"发誓"}
 {"mnc":"gasabumbi","zhDesc":"致哀、哀悼、使怨"}
@@ -6165,8 +6176,6 @@
 {"mnc":"gasihiyambi/sudunggiyambi","zhDesc":"糟蹋"}
 {"mnc":"gas~ha","zhDesc":"鸟"}
 {"mnc":"gas~huutai","zhDesc":"誓死，"}
-{"mnc":"gas＇an","zhDesc":"乡"}
-{"mnc":"gas＇an　tokso","zhDesc":"村庄，乡村"}
 {"mnc":"gauchan","zhDesc":"高昌"}
 {"mnc":"gaxan","zhDesc":"乡"}
 {"mnc":"gaxan tokso","zhDesc":"村庄"}
@@ -6249,8 +6258,8 @@
 {"mnc":"gege","zhDesc":"女孩"}
 {"mnc":"gege","zhDesc":"姐姐、女士"}
 {"mnc":"gege","zhDesc":"姐姐，女士"}
+{"mnc":"gehes'embi","zhDesc":"点头，瞌睡"}
 {"mnc":"geheshembi","zhDesc":"点头"}
-{"mnc":"gehes＇embi","zhDesc":"点头，瞌睡"}
 {"mnc":"gehexembi","zhDesc":"点头、磕睡"}
 {"mnc":"gehun","zhDesc":"明亮"}
 {"mnc":"gehun","zhDesc":"明朗的、明亮的"}
@@ -6264,7 +6273,7 @@
 {"mnc":"gehun　gahuun","zhDesc":"晴明"}
 {"mnc":"gehun　gerembi","zhDesc":"天大亮"}
 {"mnc":"gehun　iletu","zhDesc":"明显"}
-{"mnc":"gehun　s＇ehun","zhDesc":"明亮"}
+{"mnc":"gehun　s'ehun","zhDesc":"明亮"}
 {"mnc":"geigehun/isuhuun","zhDesc":"单薄"}
 {"mnc":"geigerembi","zhDesc":"生得单薄"}
 {"mnc":"gejenggi","zhDesc":"嘴碎的、饶舌的"}
@@ -6374,7 +6383,7 @@
 {"mnc":"genggiyen tugi","zhDesc":"青云"}
 {"mnc":"genggiyentug","zhDesc":"青云"}
 {"mnc":"genggiyen　abka","zhDesc":"清天"}
-{"mnc":"genggiyen　abka　gehun　s＇un","zhDesc":"清天白日"}
+{"mnc":"genggiyen　abka　gehun　s'un","zhDesc":"清天白日"}
 {"mnc":"genggiyen　biya","zhDesc":"明月"}
 {"mnc":"genggiyen　cai","zhDesc":"清茶"}
 {"mnc":"genggiyen　ejen","zhDesc":"明君"}
@@ -6463,8 +6472,8 @@
 {"mnc":"geri　geri","zhDesc":"屡次，接二连三"}
 {"mnc":"geri　geri　dere　acambi","zhDesc":"屡次见面"}
 {"mnc":"geri　goiimbi","zhDesc":"得瘟疫"}
+{"mnc":"gerkus'embi","zhDesc":"眼光闪烁"}
 {"mnc":"gerkushembi","zhDesc":"目光闪烁"}
-{"mnc":"gerkus＇embi","zhDesc":"眼光闪烁"}
 {"mnc":"gerkuxembi","zhDesc":"眼光闪烁"}
 {"mnc":"gersi fersi","zhDesc":"黎明"}
 {"mnc":"gersi　fersi","zhDesc":"黎明"}
@@ -6501,7 +6510,7 @@
 {"mnc":"getuken xetuken","zhDesc":"清清楚楚"}
 {"mnc":"getukenobu","zhDesc":"洁净、一尘不染"}
 {"mnc":"getuken　gisurembi","zhDesc":"说清楚,说明白"}
-{"mnc":"getuken　s＇etuken","zhDesc":"清清楚楚"}
+{"mnc":"getuken　s'etuken","zhDesc":"清清楚楚"}
 {"mnc":"getuken　ulhisu","zhDesc":"慧敏"}
 {"mnc":"geyembi","zhDesc":"用刀刻"}
 {"mnc":"gezhiheshembi","zhDesc":"胳肢"}
@@ -6550,9 +6559,9 @@
 {"mnc":"gidame daldambi","zhDesc":"隐瞒"}
 {"mnc":"gidame　daldambi","zhDesc":"隐瞒"}
 {"mnc":"gidara hergen","zhDesc":"行书"}
+{"mnc":"gidas'ambi","zhDesc":"欺凌,压迫,欺压"}
 {"mnc":"gidashambi","zhDesc":"招手"}
 {"mnc":"gidashambi","zhDesc":"欺负"}
-{"mnc":"gidas＇ambi","zhDesc":"欺凌,压迫,欺压"}
 {"mnc":"gidaxambi","zhDesc":"欺凌、压迫、欺压"}
 {"mnc":"gihi","zhDesc":"狍皮"}
 {"mnc":"gihuushambi","zhDesc":"央求"}
@@ -6802,6 +6811,12 @@
 {"mnc":"gochis~huun","zhDesc":"谦"}
 {"mnc":"gocimbi","zhDesc":"抽、吸、吹奏、撤回、消退、减少、拔出、抽出、出虹"}
 {"mnc":"gocir","zhDesc":"郭齐尔"}
+{"mnc":"gocis'hvdambi","zhDesc":"谦逊、谦虚"}
+{"mnc":"gocis'hvn","zhDesc":"谦虚、虚心"}
+{"mnc":"gocis'hvn anahvnjan","zhDesc":"谦让"}
+{"mnc":"gocis'hvn hvwaliyasun","zhDesc":"谦和"}
+{"mnc":"gocis'hvn kumdu","zhDesc":"谦虚"}
+{"mnc":"gocis'hvn olhoba","zhDesc":"谦虚、谨慎"}
 {"mnc":"gocishun","zhDesc":"谦逊"}
 {"mnc":"gocishuudambi","zhDesc":"谦逊、谦虚"}
 {"mnc":"gocishuun","zhDesc":"谦虚、虚心"}
@@ -6810,12 +6825,6 @@
 {"mnc":"gocishuun kumdu","zhDesc":"谦虚"}
 {"mnc":"gocishuun olhoba","zhDesc":"谦虚、谨慎"}
 {"mnc":"gocisun","zhDesc":"谦(易卦)"}
-{"mnc":"gocis’hvdambi","zhDesc":"谦逊、谦虚"}
-{"mnc":"gocis’hvn","zhDesc":"谦虚、虚心"}
-{"mnc":"gocis’hvn anahvnjan","zhDesc":"谦让"}
-{"mnc":"gocis’hvn hvwaliyasun","zhDesc":"谦和"}
-{"mnc":"gocis’hvn kumdu","zhDesc":"谦虚"}
-{"mnc":"gocis’hvn olhoba","zhDesc":"谦虚、谨慎"}
 {"mnc":"godohon","zhDesc":"直立的、竖立的、直挺的"}
 {"mnc":"godohon","zhDesc":"直立的，竖立的，直挺的"}
 {"mnc":"godohon/sehehun","zhDesc":"直直的"}
@@ -6836,7 +6845,7 @@
 {"mnc":"goicuka","zhDesc":"恰当的、有妨碍的、有妨害的、扎眼的"}
 {"mnc":"goicuka isibumbi","zhDesc":"影响"}
 {"mnc":"goidaha erecun","zhDesc":"宿愿"}
-{"mnc":"goidaha us’hacun","zhDesc":"宿怨"}
+{"mnc":"goidaha us'hacun","zhDesc":"宿怨"}
 {"mnc":"goidambi","zhDesc":"久"}
 {"mnc":"goidambi","zhDesc":"久、长久、耽搁"}
 {"mnc":"goidashambi","zhDesc":"捶打"}
@@ -6867,8 +6876,8 @@
 {"mnc":"golmin uncehen","zhDesc":"长尾"}
 {"mnc":"golmin xanggiyan alin den bime amba,","zhDesc":"长白山高又大，"}
 {"mnc":"golmis'huun","zhDesc":"长的"}
+{"mnc":"golmis'hvn","zhDesc":"长形的"}
 {"mnc":"golmishuun","zhDesc":"长型的"}
-{"mnc":"golmis’hvn","zhDesc":"长形的"}
 {"mnc":"golo","zhDesc":"中流"}
 {"mnc":"golo","zhDesc":"河床"}
 {"mnc":"golo","zhDesc":"省"}
@@ -7033,7 +7042,7 @@
 {"mnc":"gungge xanggan","zhDesc":"功绩"}
 {"mnc":"gunggumbi/mekcherembi","zhDesc":"躬身"}
 {"mnc":"gungheg'o","zhDesc":"共和国"}
-{"mnc":"gungheg’o","zhDesc":"共和国"}
+{"mnc":"gungheg'o","zhDesc":"共和国"}
 {"mnc":"gungkeriilha","zhDesc":"玉兰花"}
 {"mnc":"gunglu","zhDesc":"公路"}
 {"mnc":"gungnechun/gungneehuke/kundu","zhDesc":"恭"}
@@ -7052,8 +7061,8 @@
 {"mnc":"gurehelembi","zhDesc":"用筋缠"}
 {"mnc":"gurgu","zhDesc":"兽"}
 {"mnc":"gurgu","zhDesc":"野兽"}
+{"mnc":"gurgu gas'ha","zhDesc":"禽兽"}
 {"mnc":"gurgu gasha","zhDesc":"禽兽"}
-{"mnc":"gurgu gas’ha","zhDesc":"禽兽"}
 {"mnc":"gurgushembi","zhDesc":"狩猎"}
 {"mnc":"guribumbi","zhDesc":"使迁移,移动,栽(树苗)"}
 {"mnc":"guribumbi","zhDesc":"使迁移、移动、栽（树苗）"}
@@ -7078,6 +7087,8 @@
 {"mnc":"gurunni wan","zhDesc":"国王"}
 {"mnc":"gurzhen","zhDesc":"蟋蟀"}
 {"mnc":"gus'hembi","zhDesc":"成器"}
+{"mnc":"gus'herkv","zhDesc":"不成器的"}
+{"mnc":"gus'herkv yabun","zhDesc":"流氓行为"}
 {"mnc":"guse","zhDesc":"姑子"}
 {"mnc":"guse","zhDesc":"尼姑,股份"}
 {"mnc":"guse","zhDesc":"尼姑、股份"}
@@ -7088,8 +7099,6 @@
 {"mnc":"gusuchumbi","zhDesc":"烦闷"}
 {"mnc":"gusucumbi","zhDesc":"烦闷,忧闷"}
 {"mnc":"gusucumbi","zhDesc":"烦闷、忧闷"}
-{"mnc":"gus’herkv","zhDesc":"不成器的"}
-{"mnc":"gus’herkv yabun","zhDesc":"流氓行为"}
 {"mnc":"gutmigan","zhDesc":"见识"}
 {"mnc":"guubadambi","zhDesc":"挣跳,捣乱"}
 {"mnc":"guubimbi","zhDesc":"拴煞"}
@@ -7274,15 +7283,6 @@
 {"mnc":"gvwambi","zhDesc":"狗叫,吠"}
 {"mnc":"gvwambi","zhDesc":"狗叫、吠"}
 {"mnc":"gwamun","zhDesc":"驿"}
-{"mnc":"g’ada","zhDesc":"疙瘩"}
-{"mnc":"g’ada moo","zhDesc":"大头棒"}
-{"mnc":"g’ag’alambi","zhDesc":"母鸡叫"}
-{"mnc":"g’an","zhDesc":"钢"}
-{"mnc":"g’an sele","zhDesc":"钢铁"}
-{"mnc":"g’anfi","zhDesc":"钢笔"}
-{"mnc":"g’odong g’odong","zhDesc":"硬邦邦"}
-{"mnc":"g’ogin","zhDesc":"鳏夫"}
-{"mnc":"g’oki","zhDesc":"锅饼"}
 {"mnc":"habchihiyadambi/habchihiyan","zhDesc":"亲热"}
 {"mnc":"habcihiyadambi","zhDesc":"待人亲热,殷勤和蔼"}
 {"mnc":"habcihiyadambi","zhDesc":"待人亲热、殷勤和蔼"}
@@ -7363,8 +7363,8 @@
 {"mnc":"hafirhvn","zhDesc":"狭窄的、狭隘的、贫乏的、缺少的"}
 {"mnc":"hafirhvn jugvn","zhDesc":"狭路"}
 {"mnc":"hafirhvn niyalma","zhDesc":"度量小的人"}
+{"mnc":"hafirhvn sitas'hvn","zhDesc":"拮据"}
 {"mnc":"hafirhvn sitashvn","zhDesc":"拮据"}
-{"mnc":"hafirhvn sitas’hvn","zhDesc":"拮据"}
 {"mnc":"hafirshambi","zhDesc":"节约"}
 {"mnc":"hafishangga","zhDesc":"赞许的"}
 {"mnc":"hafitambi/hafin","zhDesc":"夹"}
@@ -7456,8 +7456,8 @@
 {"mnc":"hailan","zhDesc":"难堪"}
 {"mnc":"hailan moo","zhDesc":"榆树"}
 {"mnc":"hailas'auun","zhDesc":"险峻"}
-{"mnc":"hailas’hvn","zhDesc":"偏的、歪的、险坡的"}
-{"mnc":"hailas’hvn haksan","zhDesc":"险隘、崎岖"}
+{"mnc":"hailas'hvn","zhDesc":"偏的、歪的、险坡的"}
+{"mnc":"hailas'hvn haksan","zhDesc":"险隘、崎岖"}
 {"mnc":"hailun","zhDesc":"水獭"}
 {"mnc":"hailun","zhDesc":"水獭、水獭皮"}
 {"mnc":"hairachuka/hairakan","zhDesc":"可惜的"}
@@ -7667,7 +7667,12 @@
 {"mnc":"hartungga orolosun","zhDesc":"物主代词"}
 {"mnc":"harxambi","zhDesc":"偏护,袒护"}
 {"mnc":"harxambi","zhDesc":"偏护、袒护"}
+{"mnc":"has'ha","zhDesc":"剪刀"}
 {"mnc":"has'halambi","zhDesc":"编篱笆"}
+{"mnc":"has'halambi","zhDesc":"剪"}
+{"mnc":"has'han","zhDesc":"篱笆"}
+{"mnc":"has'hv","zhDesc":"左，左边"}
+{"mnc":"has'hv ici","zhDesc":"左右"}
 {"mnc":"hasa","zhDesc":"急速"}
 {"mnc":"hasa/huudun","zhDesc":"快速"}
 {"mnc":"hasaha","zhDesc":"剪刀"}
@@ -7693,11 +7698,6 @@
 {"mnc":"hasima","zhDesc":"哈什蚂"}
 {"mnc":"hasiri","zhDesc":"茄花色"}
 {"mnc":"hasita","zhDesc":"还是"}
-{"mnc":"has’ha","zhDesc":"剪刀"}
-{"mnc":"has’halambi","zhDesc":"剪"}
-{"mnc":"has’han","zhDesc":"篱笆"}
-{"mnc":"has’hv","zhDesc":"左，左边"}
-{"mnc":"has’hv ici","zhDesc":"左右"}
 {"mnc":"hatabumbi","zhDesc":"讨人嫌"}
 {"mnc":"hatachuka","zhDesc":"讨人嫌的"}
 {"mnc":"hatambi","zhDesc":"嫌"}
@@ -8031,6 +8031,8 @@
 {"mnc":"hiribu","zhDesc":"睡熟、忘了"}
 {"mnc":"hiristos","zhDesc":"基督"}
 {"mnc":"his'hakuu/shuwase","zhDesc":"刷子"}
+{"mnc":"his'hambi","zhDesc":"紧挨着、紧贴着、磨、摩擦"}
+{"mnc":"his'han","zhDesc":"污斑、污垢"}
 {"mnc":"his'han/iehebun","zhDesc":"污点"}
 {"mnc":"hisalambi","zhDesc":"奠"}
 {"mnc":"hisalambi","zhDesc":"奠,酹"}
@@ -8039,8 +8041,6 @@
 {"mnc":"hishambi","zhDesc":"紧挨着,紧贴着,磨,磨擦"}
 {"mnc":"hishan","zhDesc":"污斑,污垢"}
 {"mnc":"hishi","zhDesc":"井"}
-{"mnc":"his’hambi","zhDesc":"紧挨着、紧贴着、磨、摩擦"}
-{"mnc":"his’han","zhDesc":"污斑、污垢"}
 {"mnc":"hitahuun","zhDesc":"指甲"}
 {"mnc":"hitahvn","zhDesc":"指甲"}
 {"mnc":"hitara","zhDesc":"喜塔喇"}
@@ -8261,6 +8261,7 @@
 {"mnc":"horonggo saikan","zhDesc":"壮丽"}
 {"mnc":"horontai","zhDesc":"威"}
 {"mnc":"horontu","zhDesc":"威武的"}
+{"mnc":"hos'hvri","zhDesc":"卷毛的、（毛发）卷曲的"}
 {"mnc":"hose","zhDesc":"盒子"}
 {"mnc":"hoseri","zhDesc":"盒子"}
 {"mnc":"hoshan","zhDesc":"和尚"}
@@ -8274,7 +8275,6 @@
 {"mnc":"hosori","zhDesc":"皮屑"}
 {"mnc":"hos~hori","zhDesc":"卷毛的"}
 {"mnc":"hos~horinambi","zhDesc":"毛发蓬乱"}
-{"mnc":"hos’hvri","zhDesc":"卷毛的、（毛发）卷曲的"}
 {"mnc":"hoto","zhDesc":"秃子"}
 {"mnc":"hoto","zhDesc":"秃子,葫芦菜,脑颅,光秃的"}
 {"mnc":"hoto","zhDesc":"秃子、葫芦"}
@@ -8802,11 +8802,11 @@
 {"mnc":"ijin","zhDesc":"线拧得过紧,经"}
 {"mnc":"ijin","zhDesc":"线拧得过紧、经"}
 {"mnc":"ijin wekjin","zhDesc":"经纬"}
+{"mnc":"ijis'hvn","zhDesc":"顺利、顺当、和顺、温顺"}
+{"mnc":"ijis'hvn acabungga","zhDesc":"顺利"}
 {"mnc":"ijishun","zhDesc":"孝顺、顺从"}
 {"mnc":"ijishvn","zhDesc":"顺利,顺当,和顺,温顺,"}
 {"mnc":"ijishvn acabungga","zhDesc":"顺利"}
-{"mnc":"ijis’hvn","zhDesc":"顺利、顺当、和顺、温顺"}
-{"mnc":"ijis’hvn acabungga","zhDesc":"顺利"}
 {"mnc":"ijumbi","zhDesc":"抹,涂,敷"}
 {"mnc":"ijumbi","zhDesc":"抹、涂、敷"}
 {"mnc":"ijume darimbi","zhDesc":"讥讽,讥刺"}
@@ -9103,10 +9103,18 @@
 {"mnc":"irun","zhDesc":"田陇,炕内洞"}
 {"mnc":"irun","zhDesc":"田陇、炕内侧"}
 {"mnc":"irushuun","zhDesc":"沉潜"}
+{"mnc":"is'heliyen","zhDesc":"窄"}
 {"mnc":"is'hu","zhDesc":"线轴"}
 {"mnc":"is'hulembi","zhDesc":"照面"}
 {"mnc":"is'hun","zhDesc":"向着"}
+{"mnc":"is'hun aniya","zhDesc":"明年"}
+{"mnc":"is'hun cas'hvn","zhDesc":"彼此不对、对立的"}
+{"mnc":"is'hun edun","zhDesc":"顶风"}
 {"mnc":"is'hunde","zhDesc":"彼此"}
+{"mnc":"is'hunde","zhDesc":"互相、彼此"}
+{"mnc":"is'hunde acun cacun","zhDesc":"互相矛盾"}
+{"mnc":"is'hunde aisilambi","zhDesc":"互相帮助"}
+{"mnc":"is'hvn","zhDesc":"对面的、反面的、将来的、下次的"}
 {"mnc":"isabun","zhDesc":"汇"}
 {"mnc":"isakuu","zhDesc":"召集者"}
 {"mnc":"isambi","zhDesc":"聚集"}
@@ -9182,14 +9190,6 @@
 {"mnc":"isitala","zhDesc":"直至、直到"}
 {"mnc":"isohon","zhDesc":"牛黄"}
 {"mnc":"isu","zhDesc":"青素缎"}
-{"mnc":"is’heliyen","zhDesc":"窄"}
-{"mnc":"is’hun aniya","zhDesc":"明年"}
-{"mnc":"is’hun cas’hvn","zhDesc":"彼此不对、对立的"}
-{"mnc":"is’hun edun","zhDesc":"顶风"}
-{"mnc":"is’hunde","zhDesc":"互相、彼此"}
-{"mnc":"is’hunde acun cacun","zhDesc":"互相矛盾"}
-{"mnc":"is’hunde aisilambi","zhDesc":"互相帮助"}
-{"mnc":"is’hvn","zhDesc":"对面的、反面的、将来的、下次的"}
 {"mnc":"itari","zhDesc":"宜喇礼"}
 {"mnc":"itasu","zhDesc":"三倍"}
 {"mnc":"itata","zhDesc":"各三个"}
@@ -9867,12 +9867,18 @@
 {"mnc":"juxuru","zhDesc":"尺"}
 {"mnc":"juxuru jurhun","zhDesc":"尺寸"}
 {"mnc":"juyehen yali","zhDesc":"里脊肉"}
-{"mnc":"k`alabumbi","zhDesc":"被卡住"}
-{"mnc":"k`alambi","zhDesc":"靠，卡"}
-{"mnc":"k`apiyan","zhDesc":"卡片"}
-{"mnc":"k`otacimsi","zhDesc":"科学家"}
-{"mnc":"k`otacin","zhDesc":"科学"}
-{"mnc":"k`otdcisi","zhDesc":"科学工作者"}
+{"mnc":"k'alabumbi","zhDesc":"被卡住"}
+{"mnc":"k'alabumbi","zhDesc":"被卡住"}
+{"mnc":"k'alambi","zhDesc":"靠，卡"}
+{"mnc":"k'apiyan","zhDesc":"卡片"}
+{"mnc":"k'apiyan","zhDesc":"卡片"}
+{"mnc":"k'lambi","zhDesc":"靠、卡"}
+{"mnc":"k'otacimsi","zhDesc":"科学家"}
+{"mnc":"k'otacimsi","zhDesc":"科学家"}
+{"mnc":"k'otacin","zhDesc":"科学"}
+{"mnc":"k'otacin","zhDesc":"科学"}
+{"mnc":"k'otacisi","zhDesc":"科学工作者"}
+{"mnc":"k'otdcisi","zhDesc":"科学工作者"}
 {"mnc":"kaba","zhDesc":"并排、并蒂"}
 {"mnc":"kaba","zhDesc":"并排，并蒂"}
 {"mnc":"kaba jui","zhDesc":"双生子"}
@@ -10143,8 +10149,8 @@
 {"mnc":"kengkexembi","zhDesc":"馋得慌、渴望、渴求"}
 {"mnc":"kengkexembi","zhDesc":"馋得慌，渴望，渴求"}
 {"mnc":"kengse","zhDesc":"英明果断"}
+{"mnc":"kengse las'ha","zhDesc":"果断"}
 {"mnc":"kengse lasha","zhDesc":"果断"}
-{"mnc":"kengse las’ha","zhDesc":"果断"}
 {"mnc":"kengse mujin","zhDesc":"决心"}
 {"mnc":"kengselembi","zhDesc":"截断"}
 {"mnc":"kengsezhembi","zhDesc":"磨伤"}
@@ -10243,8 +10249,8 @@
 {"mnc":"kinumbi","zhDesc":"恨、怀恨"}
 {"mnc":"kinumbi","zhDesc":"恨，怀恨"}
 {"mnc":"kiongguriilha","zhDesc":"琼花"}
+{"mnc":"kir his'han","zhDesc":"污垢"}
 {"mnc":"kir hishan","zhDesc":"污垢"}
-{"mnc":"kir his’han","zhDesc":"污垢"}
 {"mnc":"kirfu","zhDesc":"镡鱼"}
 {"mnc":"kiri","zhDesc":"忍、忍让"}
 {"mnc":"kiriba","zhDesc":"忍耐、残忍"}
@@ -10576,12 +10582,6 @@
 {"mnc":"kvwasa","zhDesc":"爱夸张的，爱 吹嘘的人"}
 {"mnc":"kvwasadambi","zhDesc":"夸张、吹嘘"}
 {"mnc":"kvwasadambi","zhDesc":"夸张，吹嘘"}
-{"mnc":"k’alabumbi","zhDesc":"被卡住"}
-{"mnc":"k’apiyan","zhDesc":"卡片"}
-{"mnc":"k’lambi","zhDesc":"靠、卡"}
-{"mnc":"k’otacimsi","zhDesc":"科学家"}
-{"mnc":"k’otacin","zhDesc":"科学"}
-{"mnc":"k’otacisi","zhDesc":"科学工作者"}
 {"mnc":"laba/buleri","zhDesc":"喇叭"}
 {"mnc":"labarhuun","zhDesc":"仰面"}
 {"mnc":"labarhvn","zhDesc":"正著"}
@@ -10712,9 +10712,15 @@
 {"mnc":"larsen","zhDesc":"食物面糊"}
 {"mnc":"larsenda/shanyo","zhDesc":"山药"}
 {"mnc":"las'ha/lakchambi/mokchombi","zhDesc":"断"}
+{"mnc":"las'hajambi","zhDesc":"断裂、断绝、终结"}
 {"mnc":"las'halambi","zhDesc":"弄断"}
+{"mnc":"las'halambi","zhDesc":"切断、截断、中断、断绝、判决、决定"}
 {"mnc":"las'halan","zhDesc":"央断"}
+{"mnc":"las'halan","zhDesc":"断绝、决议、裁决"}
+{"mnc":"las'halara","zhDesc":"表决权"}
+{"mnc":"las'hangga axxasun","zhDesc":"判断动词"}
 {"mnc":"las'hatai","zhDesc":"决然"}
+{"mnc":"las'hatai","zhDesc":"决然、坚决、断然"}
 {"mnc":"lasari","zhDesc":"枝叶"}
 {"mnc":"lasari","zhDesc":"枝叶茂密"}
 {"mnc":"lashajambi","zhDesc":"断裂，断绝，终结"}
@@ -10727,12 +10733,6 @@
 {"mnc":"lasihimbi","zhDesc":"甩、摔、挥、草写"}
 {"mnc":"lasihimbi","zhDesc":"甩，摔，挥，草写"}
 {"mnc":"lasihime arambi","zhDesc":"写草字"}
-{"mnc":"las’hajambi","zhDesc":"断裂、断绝、终结"}
-{"mnc":"las’halambi","zhDesc":"切断、截断、中断、断绝、判决、决定"}
-{"mnc":"las’halan","zhDesc":"断绝、决议、裁决"}
-{"mnc":"las’halara","zhDesc":"表决权"}
-{"mnc":"las’hangga axxasun","zhDesc":"判断动词"}
-{"mnc":"las’hatai","zhDesc":"决然、坚决、断然"}
 {"mnc":"lata","zhDesc":"迟钝、怠惰"}
 {"mnc":"lata","zhDesc":"迟钝，怠惰"}
 {"mnc":"lata","zhDesc":"马行动慢"}
@@ -11091,8 +11091,8 @@
 {"mnc":"manambi","zhDesc":"磨坏，破烂，用破，破败"}
 {"mnc":"manambi","zhDesc":"衣服破"}
 {"mnc":"manas'huun","zhDesc":"褴褛"}
+{"mnc":"manas'hvn","zhDesc":"破烂的、褴褛的、月终"}
 {"mnc":"manashvn","zhDesc":"破烂的，褴褛的，月终"}
-{"mnc":"manas’hvn","zhDesc":"破烂的、褴褛的、月终"}
 {"mnc":"manda","zhDesc":"缓慢"}
 {"mnc":"mandal","zhDesc":"坛"}
 {"mnc":"mandan","zhDesc":"慢的、迟缓的"}
@@ -11441,7 +11441,10 @@
 {"mnc":"miosirilambi","zhDesc":"撇嘴笑"}
 {"mnc":"miosirilambi","zhDesc":"撇嘴，微笑"}
 {"mnc":"mis'halakuu","zhDesc":"墨斗"}
+{"mnc":"mis'halakv","zhDesc":"墨斗"}
 {"mnc":"mis'halambi","zhDesc":"打墨线"}
+{"mnc":"mis'halambi","zhDesc":"打墨线"}
+{"mnc":"mis'han","zhDesc":"墨线"}
 {"mnc":"mis'han","zhDesc":"墨线"}
 {"mnc":"mis'hembi/olimbi","zhDesc":"躲开"}
 {"mnc":"misen","zhDesc":"敞口缸"}
@@ -11451,9 +11454,6 @@
 {"mnc":"misun","zhDesc":"浆"}
 {"mnc":"misun","zhDesc":"酱"}
 {"mnc":"misuru","zhDesc":"酱色"}
-{"mnc":"mis’halakv","zhDesc":"墨斗"}
-{"mnc":"mis’halambi","zhDesc":"打墨线"}
-{"mnc":"mis’han","zhDesc":"墨线"}
 {"mnc":"mitambi","zhDesc":"弓翻身"}
 {"mnc":"miyalikuu","zhDesc":"雷管"}
 {"mnc":"miyalimbi","zhDesc":"衡量"}
@@ -11504,8 +11504,8 @@
 {"mnc":"modo","zhDesc":"笨"}
 {"mnc":"modo","zhDesc":"迟钝、笨的"}
 {"mnc":"modo","zhDesc":"迟钝，笨的"}
-{"mnc":"mog`o","zhDesc":"蘑菇"}
-{"mnc":"mog’o","zhDesc":"蘑菇"}
+{"mnc":"mog'o","zhDesc":"蘑菇"}
+{"mnc":"mog'o","zhDesc":"蘑菇"}
 {"mnc":"mohobumbi","zhDesc":"弄钝、穷究、诘难、穷尽、到尽头、使窘困、使窘竭、竭尽、穷竭"}
 {"mnc":"mohobumbi","zhDesc":"弄钝，穷究，诘难，穷尽，到尽头，使窘困，使窘竭"}
 {"mnc":"mohobumbi","zhDesc":"究问"}
@@ -11797,15 +11797,15 @@
 {"mnc":"murime muterakv","zhDesc":"拗不过"}
 {"mnc":"murin tarin","zhDesc":"别别扭扭"}
 {"mnc":"muris'huun","zhDesc":"冤枉"}
+{"mnc":"muris'hvn","zhDesc":"冤曲、委曲"}
 {"mnc":"murishvn","zhDesc":"冤曲，委曲"}
-{"mnc":"muris’hvn","zhDesc":"冤曲、委曲"}
 {"mnc":"muritai","zhDesc":"执拗、执意"}
 {"mnc":"muritai","zhDesc":"执拗，执意"}
 {"mnc":"murlme","zhDesc":"盘腿坐"}
 {"mnc":"mursa","zhDesc":"萝卜"}
+{"mnc":"murtas'hvn","zhDesc":"缪、悖缪"}
 {"mnc":"murtashvn","zhDesc":"缪，悖缪"}
 {"mnc":"murtas~huun","zhDesc":"荒谬"}
-{"mnc":"murtas’hvn","zhDesc":"缪、悖缪"}
 {"mnc":"muru","zhDesc":"概貌、模样"}
 {"mnc":"muru","zhDesc":"概貌，模样"}
 {"mnc":"muru","zhDesc":"模样"}
@@ -12001,6 +12001,8 @@
 {"mnc":"narhvxara dade narhvxara be baimbi","zhDesc":"精益求精"}
 {"mnc":"nari","zhDesc":"母马熊"}
 {"mnc":"nas'huulambi","zhDesc":"遇到机会"}
+{"mnc":"nas'hvlambi","zhDesc":"逢机会、乘机会"}
+{"mnc":"nas'hvn","zhDesc":"机会"}
 {"mnc":"nasachuka","zhDesc":"可叹的"}
 {"mnc":"nasachun","zhDesc":"悔~"}
 {"mnc":"nasacuka","zhDesc":"悔恨、懊丧"}
@@ -12017,8 +12019,6 @@
 {"mnc":"nasin","zhDesc":"马熊"}
 {"mnc":"nasuehungga","zhDesc":"可伤怀的"}
 {"mnc":"nas~uun","zhDesc":"机会"}
-{"mnc":"nas’hvlambi","zhDesc":"逢机会、乘机会"}
-{"mnc":"nas’hvn","zhDesc":"机会"}
 {"mnc":"nata","zhDesc":"纳塔"}
 {"mnc":"natacin","zhDesc":"地理"}
 {"mnc":"naya","zhDesc":"妻弟"}
@@ -12263,8 +12263,8 @@
 {"mnc":"nimecuke","zhDesc":"厉害的、严厉的、可怕的、恐怖的"}
 {"mnc":"nimecuke","zhDesc":"厉害的，严历的"}
 {"mnc":"nimeku","zhDesc":"病"}
+{"mnc":"nimeku gas'han","zhDesc":"疾病"}
 {"mnc":"nimeku gasaha","zhDesc":"疾 病"}
-{"mnc":"nimeku gas’han","zhDesc":"疾病"}
 {"mnc":"nimekulembi","zhDesc":"害病"}
 {"mnc":"nimekulembi","zhDesc":"害病、患病"}
 {"mnc":"nimekulembi","zhDesc":"害病，患病"}
@@ -12650,8 +12650,8 @@
 {"mnc":"nukcimbi","zhDesc":"激发、激怒"}
 {"mnc":"nukcimbi","zhDesc":"激发，激怒"}
 {"mnc":"nukcime yabumbi","zhDesc":"勇往直前"}
+{"mnc":"nukcis'hun","zhDesc":"激烈的、粗暴的"}
 {"mnc":"nukcishun","zhDesc":"激烈的，粗暴的"}
-{"mnc":"nukcis’hun","zhDesc":"激烈的、粗暴的"}
 {"mnc":"nukibumbi","zhDesc":"使激、激励、激发"}
 {"mnc":"nukibumbi","zhDesc":"使激，激励，激发"}
 {"mnc":"nukimbi","zhDesc":"激发"}
@@ -12686,10 +12686,10 @@
 {"mnc":"nurhvme afambi","zhDesc":"连续作 战"}
 {"mnc":"nurhvme afambi","zhDesc":"连续作战"}
 {"mnc":"nus'humbi","zhDesc":"冲锋"}
+{"mnc":"nus'humbi","zhDesc":"冲、前进"}
+{"mnc":"nus'hume tucimbi","zhDesc":"冲出"}
 {"mnc":"nushumbi","zhDesc":"冲 ，前进"}
 {"mnc":"nushume tucimbi","zhDesc":"冲击"}
-{"mnc":"nus’humbi","zhDesc":"冲、前进"}
-{"mnc":"nus’hume tucimbi","zhDesc":"冲出"}
 {"mnc":"nuturu","zhDesc":"沙鸡"}
 {"mnc":"nuzhalambi","zhDesc":"拳打"}
 {"mnc":"nuzhan","zhDesc":"拳头"}
@@ -12795,8 +12795,8 @@
 {"mnc":"ojorakv","zhDesc":"不可以"}
 {"mnc":"ojorakv","zhDesc":"不可以、不行"}
 {"mnc":"ojorkv","zhDesc":"不可以，不行"}
+{"mnc":"ojos'hvn","zhDesc":"可能、可行"}
 {"mnc":"ojoshvn","zhDesc":"可能，可行"}
-{"mnc":"ojos’hvn","zhDesc":"可能、可行"}
 {"mnc":"okchilambi","zhDesc":"盖盖子"}
 {"mnc":"okchin","zhDesc":"盖儿"}
 {"mnc":"okcilambi","zhDesc":"盖盖子"}
@@ -12906,8 +12906,8 @@
 {"mnc":"omo","zhDesc":"池"}
 {"mnc":"omo","zhDesc":"湖"}
 {"mnc":"omo nimaha niyarhvn,","zhDesc":"池鱼鲜，"}
-{"mnc":"omog`onggo","zhDesc":"幽默"}
-{"mnc":"omog’onggo","zhDesc":"幽默"}
+{"mnc":"omog'onggo","zhDesc":"幽默"}
+{"mnc":"omog'onggo","zhDesc":"幽默"}
 {"mnc":"omolo","zhDesc":"孙子"}
 {"mnc":"omosi","zhDesc":"众孙子"}
 {"mnc":"omosimama","zhDesc":"福神"}
@@ -13001,6 +13001,8 @@
 {"mnc":"oronggo amalasun","zhDesc":"地点后置词"}
 {"mnc":"oroni emhulen","zhDesc":"部门垄断"}
 {"mnc":"oros","zhDesc":"俄罗斯"}
+{"mnc":"os'hodombi","zhDesc":"暴虐"}
+{"mnc":"os'hon","zhDesc":"小的、暴虐的、凶残的"}
 {"mnc":"oshiha","zhDesc":"星"}
 {"mnc":"oshodombi","zhDesc":"暴虐"}
 {"mnc":"oshoholombi","zhDesc":"用爪子抓"}
@@ -13010,8 +13012,6 @@
 {"mnc":"osohon","zhDesc":"小的、年幼的"}
 {"mnc":"oson jhugu","zhDesc":"径"}
 {"mnc":"os~hon","zhDesc":"虐"}
-{"mnc":"os’hodombi","zhDesc":"暴虐"}
-{"mnc":"os’hon","zhDesc":"小的、暴虐的、凶残的"}
 {"mnc":"oto","zhDesc":"鄂托"}
 {"mnc":"otolo","zhDesc":"直到……时候,到……为止。"}
 {"mnc":"otolo","zhDesc":"直到…时候，到…为止"}
@@ -13044,8 +13044,8 @@
 {"mnc":"paiise","zhDesc":"照牌"}
 {"mnc":"pailu","zhDesc":"牌楼"}
 {"mnc":"paise","zhDesc":"照牌"}
+{"mnc":"pak'a","zhDesc":"矮、矮子"}
 {"mnc":"pak'e","zhDesc":"矮,矮子"}
-{"mnc":"pak’a","zhDesc":"矮、矮子"}
 {"mnc":"palta","zhDesc":"金刚石"}
 {"mnc":"palta wehe","zhDesc":"金刚石"}
 {"mnc":"paltari","zhDesc":"金刚钻"}
@@ -13727,7 +13727,10 @@
 {"mnc":"seruken","zhDesc":"凉爽的,清凉的"}
 {"mnc":"seruken","zhDesc":"凉爽的、清凉的"}
 {"mnc":"ses'hembi","zhDesc":"厌烦"}
+{"mnc":"ses'hembi","zhDesc":"厌烦、撒、抛撒、抖"}
 {"mnc":"ses'heri","zhDesc":"俗"}
+{"mnc":"ses'heri","zhDesc":"俗的、庸俗的"}
+{"mnc":"ses'heri gisun","zhDesc":"俗语"}
 {"mnc":"sesembi","zhDesc":"覆盖"}
 {"mnc":"seseme","zhDesc":"少许"}
 {"mnc":"seshembi","zhDesc":"厌烦,撒,抛撒,抖"}
@@ -13739,9 +13742,6 @@
 {"mnc":"sesulambi","zhDesc":"惊,吃惊,惊讶"}
 {"mnc":"sesulambi","zhDesc":"惊、吃惊、惊讶"}
 {"mnc":"sesulambi","zhDesc":"惊讶"}
-{"mnc":"ses’hembi","zhDesc":"厌烦、撒、抛撒、抖"}
-{"mnc":"ses’heri","zhDesc":"俗的、庸俗的"}
-{"mnc":"ses’heri gisun","zhDesc":"俗语"}
 {"mnc":"setuhen","zhDesc":"瑟"}
 {"mnc":"seyembi","zhDesc":"恨"}
 {"mnc":"seyengu","zhDesc":"白玉"}
@@ -14222,6 +14222,7 @@
 {"mnc":"sirkedembi","zhDesc":"连续不止"}
 {"mnc":"sirkidembi","zhDesc":"纠缠"}
 {"mnc":"sirsing","zhDesc":"猩猩"}
+{"mnc":"sis'he","zhDesc":"褥"}
 {"mnc":"siseku","zhDesc":"筛萝"}
 {"mnc":"sisembi","zhDesc":"筛"}
 {"mnc":"sisetembi","zhDesc":"约略办理,起草"}
@@ -14240,16 +14241,15 @@
 {"mnc":"sisingga","zhDesc":"插着的"}
 {"mnc":"sisiri","zhDesc":"胡榛子"}
 {"mnc":"sis~he","zhDesc":"褥子"}
-{"mnc":"sis’he","zhDesc":"褥"}
 {"mnc":"sitahuun","zhDesc":"寡"}
 {"mnc":"sitambi","zhDesc":"迟"}
 {"mnc":"sitambi","zhDesc":"迟到,晚到,误期"}
 {"mnc":"sitambi","zhDesc":"迟到、晚到、误期"}
 {"mnc":"sitame tookambi","zhDesc":"迟到"}
 {"mnc":"sitara","zhDesc":"西他喇"}
+{"mnc":"sitas'hvn","zhDesc":"清苦、迟"}
 {"mnc":"sitashvn","zhDesc":"清苦，迟"}
 {"mnc":"sitas~huun","zhDesc":"清苦"}
-{"mnc":"sitas’hvn","zhDesc":"清苦、迟"}
 {"mnc":"siteku","zhDesc":"屎精"}
 {"mnc":"sitembi","zhDesc":"小便"}
 {"mnc":"sitembi","zhDesc":"撒尿"}
@@ -14358,12 +14358,12 @@
 {"mnc":"somimbi","zhDesc":"藏"}
 {"mnc":"somimbi","zhDesc":"藏躲，隐藏，掩埋"}
 {"mnc":"somimbi","zhDesc":"躲藏、隐藏、掩埋"}
+{"mnc":"somis'hvn","zhDesc":"隐秘的、秘密的"}
+{"mnc":"somis'hvn cooha","zhDesc":"奇兵"}
+{"mnc":"somis'hvn weileran","zhDesc":"地下工作"}
 {"mnc":"somishvn","zhDesc":"隐秘的，秘密的"}
 {"mnc":"somishvn cooha","zhDesc":"奇兵"}
 {"mnc":"somishvn weiileran","zhDesc":"地下工作"}
-{"mnc":"somis’hvn","zhDesc":"隐秘的、秘密的"}
-{"mnc":"somis’hvn cooha","zhDesc":"奇兵"}
-{"mnc":"somis’hvn weileran","zhDesc":"地下工作"}
 {"mnc":"somitambi","zhDesc":"躲藏"}
 {"mnc":"son","zhDesc":"椽子"}
 {"mnc":"son son I","zhDesc":"零星的，零碎的，纷纷的"}
@@ -14576,9 +14576,9 @@
 {"mnc":"sulambi/werimbi","zhDesc":"遗留"}
 {"mnc":"sulambumbi","zhDesc":"解除、松开、解放"}
 {"mnc":"sulambumbi","zhDesc":"解除，松开，解放"}
+{"mnc":"sulambus'hvn cooha","zhDesc":"解放军"}
 {"mnc":"sulambushvn cooha","zhDesc":"解放军"}
-{"mnc":"sulambus’hvn cooha","zhDesc":"解放军"}
-{"mnc":"sulas’hvn","zhDesc":"劳累的、艰苦的"}
+{"mnc":"sulas'hvn","zhDesc":"劳累的、艰苦的"}
 {"mnc":"sulfa","zhDesc":"舒适、舒展的、安然、泰然、宽裕、自由的"}
 {"mnc":"sulfa","zhDesc":"舒适，舒展的，安然，泰然，宽裕，自由的"}
 {"mnc":"sulfa/teyehun","zhDesc":"安逸"}
@@ -14832,8 +14832,8 @@
 {"mnc":"tafulame ilibumbi","zhDesc":"劝止"}
 {"mnc":"tafulan","zhDesc":"劝告"}
 {"mnc":"tafumbi","zhDesc":"登高"}
+{"mnc":"tag'aljambi","zhDesc":"拌脚"}
 {"mnc":"tag'eljambi","zhDesc":"拌脚"}
-{"mnc":"tag’aljambi","zhDesc":"拌脚"}
 {"mnc":"tahalambi","zhDesc":"打掌儿"}
 {"mnc":"tahan","zhDesc":"铁掌儿"}
 {"mnc":"tahi","zhDesc":"野马"}
@@ -15015,6 +15015,8 @@
 {"mnc":"tarudambi","zhDesc":"说话顶撞"}
 {"mnc":"tarun","zhDesc":"顶撞"}
 {"mnc":"tas'ha","zhDesc":"寅"}
+{"mnc":"tas'ha","zhDesc":"虎"}
+{"mnc":"tas'hai yeru","zhDesc":"虎穴"}
 {"mnc":"tas'hari","zhDesc":"皂雕"}
 {"mnc":"tasgambi","zhDesc":"干炒"}
 {"mnc":"tasgambi","zhDesc":"炒"}
@@ -15024,8 +15026,6 @@
 {"mnc":"tasihimbi","zhDesc":"打拨脚"}
 {"mnc":"tas~ha","zhDesc":"虎"}
 {"mnc":"tas~hachi","zhDesc":"虎皮"}
-{"mnc":"tas’ha","zhDesc":"虎"}
-{"mnc":"tas’hai yeru","zhDesc":"虎穴"}
 {"mnc":"tatahai","zhDesc":"下营"}
 {"mnc":"tatakuu","zhDesc":"抽屉"}
 {"mnc":"tatakv","zhDesc":"抽屉、（汲水用的）柳罐"}
@@ -15354,8 +15354,8 @@
 {"mnc":"tojin funggala","zhDesc":"孔雀翎、又叫花翎"}
 {"mnc":"tojin funggala","zhDesc":"孔雀翎，又叫花翎"}
 {"mnc":"tojin funggala xangname hadabumbi","zhDesc":"赏戴花翎"}
+{"mnc":"tojin gas'ha","zhDesc":"孔雀"}
 {"mnc":"tojin gasha","zhDesc":"孔雀"}
-{"mnc":"tojin gas’ha","zhDesc":"孔雀"}
 {"mnc":"tojin i funggala hadambi","zhDesc":"订孔雀翎"}
 {"mnc":"tokombi","zhDesc":"扎、刺、叮、咬"}
 {"mnc":"tokombi","zhDesc":"扎，刺，叮，咬"}
@@ -15717,9 +15717,9 @@
 {"mnc":"turun","zhDesc":"纛"}
 {"mnc":"turun giru","zhDesc":"旌旗"}
 {"mnc":"turun kiru","zhDesc":"旌旗"}
-{"mnc":"tus`ambi","zhDesc":"遭际，遭逢，遭遇"}
-{"mnc":"tus`an","zhDesc":"职位，职务，职责"}
-{"mnc":"tus`anun","zhDesc":"任务，职责"}
+{"mnc":"tus'ambi","zhDesc":"遭际，遭逢，遭遇"}
+{"mnc":"tus'an","zhDesc":"职位，职务，职责"}
+{"mnc":"tus'anun","zhDesc":"任务，职责"}
 {"mnc":"tusa","zhDesc":"利益"}
 {"mnc":"tusa","zhDesc":"利益、好处、效、效果"}
 {"mnc":"tusa","zhDesc":"利益，好处，效，效果"}
@@ -15783,8 +15783,8 @@
 {"mnc":"tuwancihiyambi","zhDesc":"修正、拨正、匡正"}
 {"mnc":"tuwancihiyambi","zhDesc":"修正，拨正，匡正"}
 {"mnc":"tuwanjimbi","zhDesc":"来看"}
-{"mnc":"tuwas`ambi","zhDesc":"照料，看顾"}
-{"mnc":"tuwas`atambi","zhDesc":"照看，护理"}
+{"mnc":"tuwas'ambi","zhDesc":"照料，看顾"}
+{"mnc":"tuwas'atambi","zhDesc":"照看，护理"}
 {"mnc":"tuwashambi","zhDesc":"照看"}
 {"mnc":"tuwaxambi","zhDesc":"照料、看顾"}
 {"mnc":"tuwaxatambi","zhDesc":"照看、护理"}
@@ -15822,11 +15822,11 @@
 {"mnc":"ubaliyambumbi","zhDesc":"翻译"}
 {"mnc":"ubaliyan","zhDesc":"变动"}
 {"mnc":"ubambi","zhDesc":"东西霉烂"}
-{"mnc":"ubas`aha facuhvn","zhDesc":"叛乱"}
-{"mnc":"ubas`aha hvlha","zhDesc":"叛贼"}
-{"mnc":"ubas`ambi","zhDesc":"反叛，造反，叛变，翻，翻转"}
-{"mnc":"ubas`asi","zhDesc":"叛徒"}
-{"mnc":"ubas`atambi","zhDesc":"反覆"}
+{"mnc":"ubas'aha facuhvn","zhDesc":"叛乱"}
+{"mnc":"ubas'aha hvlha","zhDesc":"叛贼"}
+{"mnc":"ubas'ambi","zhDesc":"反叛，造反，叛变，翻，翻转"}
+{"mnc":"ubas'asi","zhDesc":"叛徒"}
+{"mnc":"ubas'atambi","zhDesc":"反覆"}
 {"mnc":"ubashambi","zhDesc":"叛变"}
 {"mnc":"ubashambi","zhDesc":"翻过来"}
 {"mnc":"ubaxaha facuhvn","zhDesc":"叛乱"}
@@ -15840,7 +15840,7 @@
 {"mnc":"ubiyacuka","zhDesc":"厌恶的、讨厌的"}
 {"mnc":"ubiyacuka","zhDesc":"讨厌的，厌恶的"}
 {"mnc":"ubiyada","zhDesc":"讨厌"}
-{"mnc":"ubiyada arbus`ambi","zhDesc":"举止讨厌"}
+{"mnc":"ubiyada arbus'ambi","zhDesc":"举止讨厌"}
 {"mnc":"ubiyada arbuxambi","zhDesc":"举止讨厌"}
 {"mnc":"ubiyada gisurembi","zhDesc":"说话让人讨厌"}
 {"mnc":"ubiyada niyalma","zhDesc":"讨厌的人"}
@@ -15929,7 +15929,7 @@
 {"mnc":"uhe","zhDesc":"共、共同、和谐、融洽"}
 {"mnc":"uhe","zhDesc":"共，共同，和谐，融洽"}
 {"mnc":"uhe","zhDesc":"统一的"}
-{"mnc":"uhe as`s`angga arbun","zhDesc":"齐动态"}
+{"mnc":"uhe as's'angga arbun","zhDesc":"齐动态"}
 {"mnc":"uhe axxangga arbun","zhDesc":"齐动态"}
 {"mnc":"uhe obombi","zhDesc":"统一"}
 {"mnc":"uhe obumbi","zhDesc":"统一"}
@@ -15953,8 +15953,8 @@
 {"mnc":"uhuken","zhDesc":"弓软"}
 {"mnc":"uhuken","zhDesc":"软、柔软的、柔和的、缓慢轻柔的"}
 {"mnc":"uhuken","zhDesc":"软，柔软的，柔和的，缓慢轻柔的"}
+{"mnc":"uhuken ijis'hvn","zhDesc":"柔顺"}
 {"mnc":"uhuken ijishvn","zhDesc":"柔顺"}
-{"mnc":"uhuken ijis’hvn","zhDesc":"柔顺"}
 {"mnc":"uhuken yadalinggv","zhDesc":"柔弱"}
 {"mnc":"uhumbi","zhDesc":"包、裹、卷"}
 {"mnc":"uhumbi","zhDesc":"包，裹，卷"}
@@ -16000,7 +16000,7 @@
 {"mnc":"ujen jingji","zhDesc":"稳重、沉重"}
 {"mnc":"ujen oyonggo","zhDesc":"稳重，沉重"}
 {"mnc":"ujen oyonggo","zhDesc":"重要"}
-{"mnc":"ujen tukiyere s`unggitun","zhDesc":"起重机"}
+{"mnc":"ujen tukiyere s'unggitun","zhDesc":"起重机"}
 {"mnc":"ujen tukiyere xunggitun","zhDesc":"起重机"}
 {"mnc":"ujhulahai","zhDesc":"酋长"}
 {"mnc":"ujima","zhDesc":"牲畜"}
@@ -16224,7 +16224,7 @@
 {"mnc":"umudu jui","zhDesc":"孤儿"}
 {"mnc":"umuhun","zhDesc":"脚面"}
 {"mnc":"umuri/ushe","zhDesc":"带子"}
-{"mnc":"umus`uhun","zhDesc":"俯面"}
+{"mnc":"umus'uhun","zhDesc":"俯面"}
 {"mnc":"umuxuhun","zhDesc":"俯面"}
 {"mnc":"umyen","zhDesc":"雌性的"}
 {"mnc":"unca","zhDesc":"令卖"}
@@ -16305,7 +16305,7 @@
 {"mnc":"untuhuri dulembumbi","zhDesc":"虚度"}
 {"mnc":"untuhusaka","zhDesc":"空空的"}
 {"mnc":"unuchun","zhDesc":"遗腹子"}
-{"mnc":"unuha tus`an","zhDesc":"责任"}
+{"mnc":"unuha tus'an","zhDesc":"责任"}
 {"mnc":"unuha tuxan","zhDesc":"责任"}
 {"mnc":"unuhucin","zhDesc":"吴努呼勤"}
 {"mnc":"unumbi","zhDesc":"背负"}
@@ -16350,9 +16350,9 @@
 {"mnc":"urembi","zhDesc":"熟"}
 {"mnc":"ureme amgambi","zhDesc":"熟睡"}
 {"mnc":"ureme halhvn","zhDesc":"酷热"}
+{"mnc":"ures'hvn","zhDesc":"熟练、熟悉"}
 {"mnc":"ureshvn","zhDesc":"熟练，熟悉"}
 {"mnc":"ures~huun","zhDesc":"熟悉"}
-{"mnc":"ures’hvn","zhDesc":"熟练、熟悉"}
 {"mnc":"urgalambi","zhDesc":"套马"}
 {"mnc":"urgalambi","zhDesc":"（用套绳或套马杆）套马"}
 {"mnc":"urgan","zhDesc":"套马杆"}
@@ -16393,14 +16393,14 @@
 {"mnc":"urhu akv","zhDesc":"不偏"}
 {"mnc":"urhu haihv","zhDesc":"袅娜"}
 {"mnc":"urhu haiihv","zhDesc":"袅娜"}
-{"mnc":"urhu hars`akv","zhDesc":"偏护"}
+{"mnc":"urhu hars'akv","zhDesc":"偏护"}
 {"mnc":"urhu harxakv","zhDesc":"偏护"}
 {"mnc":"urhulambi","zhDesc":"打趔趄"}
 {"mnc":"urhumbi","zhDesc":"受惊、惊跳（跑）"}
 {"mnc":"urhumbi","zhDesc":"受惊，惊跳（跑）"}
 {"mnc":"urhun","zhDesc":"指、即一指厚度"}
 {"mnc":"urhun","zhDesc":"指，即一指厚度"}
-{"mnc":"urhus`embi","zhDesc":"蹁跹"}
+{"mnc":"urhus'embi","zhDesc":"蹁跹"}
 {"mnc":"urhuumbi","zhDesc":"马惊"}
 {"mnc":"urhuxembi","zhDesc":"蹁跹"}
 {"mnc":"urhvmbi","zhDesc":"偏斜、偏歪、袒护、偏向"}
@@ -16447,20 +16447,23 @@
 {"mnc":"urunakuu","zhDesc":"一定"}
 {"mnc":"urunakv","zhDesc":"一定要、必定"}
 {"mnc":"urunakv","zhDesc":"一定要，必定"}
-{"mnc":"urus`embi","zhDesc":"同意，赞成"}
-{"mnc":"urus`ere wakas`ara","zhDesc":"是是非非"}
+{"mnc":"urus'embi","zhDesc":"同意，赞成"}
+{"mnc":"urus'ere wakas'ara","zhDesc":"是是非非"}
 {"mnc":"urushehe temgetu","zhDesc":"许可证"}
 {"mnc":"urushembi","zhDesc":"同意"}
 {"mnc":"uruxembi","zhDesc":"同意、赞成"}
 {"mnc":"uruxere wakaxara","zhDesc":"是是非非"}
+{"mnc":"us'abun","zhDesc":"牵连，连累"}
+{"mnc":"us'ambi","zhDesc":"拉，拖，牵，扯"}
+{"mnc":"us'an fas'an","zhDesc":"麻烦，纷乱"}
+{"mnc":"us'atambi","zhDesc":"拖，拉，牵引，连累，拉扯"}
+{"mnc":"us'e","zhDesc":"带子，皮条"}
+{"mnc":"us'embi","zhDesc":"纳（鞋底）"}
+{"mnc":"us'hacun","zhDesc":"恼怒的、怨恨的"}
 {"mnc":"us'hambi","zhDesc":"恼"}
+{"mnc":"us'hambi","zhDesc":"嗔恼、怨恨"}
 {"mnc":"us'he","zhDesc":"精液"}
-{"mnc":"us`abun","zhDesc":"牵连，连累"}
-{"mnc":"us`ambi","zhDesc":"拉，拖，牵，扯"}
-{"mnc":"us`an fas`an","zhDesc":"麻烦，纷乱"}
-{"mnc":"us`atambi","zhDesc":"拖，拉，牵引，连累，拉扯"}
-{"mnc":"us`e","zhDesc":"带子，皮条"}
-{"mnc":"us`embi","zhDesc":"纳（鞋底）"}
+{"mnc":"us'he","zhDesc":"精液"}
 {"mnc":"usachun","zhDesc":"悲伤"}
 {"mnc":"usach~","zhDesc":"可悲伤的"}
 {"mnc":"usacuka","zhDesc":"哀、感伤的、悲伤的"}
@@ -16484,7 +16487,7 @@
 {"mnc":"use faha","zhDesc":"籽粒"}
 {"mnc":"use gaiimbi","zhDesc":"选种"}
 {"mnc":"use gaimbi","zhDesc":"选种"}
-{"mnc":"use sonjoro s`unggitun","zhDesc":"选种机"}
+{"mnc":"use sonjoro s'unggitun","zhDesc":"选种机"}
 {"mnc":"use sonjoro xunggitun","zhDesc":"选种机"}
 {"mnc":"useku","zhDesc":"篓"}
 {"mnc":"useku","zhDesc":"耧斗、篓"}
@@ -16502,7 +16505,7 @@
 {"mnc":"usi umiyaha","zhDesc":"蛔虫"}
 {"mnc":"usiha","zhDesc":"星"}
 {"mnc":"usiha","zhDesc":"星星"}
-{"mnc":"usiha geris`embi","zhDesc":"星光闪烁"}
+{"mnc":"usiha geris'embi","zhDesc":"星光闪烁"}
 {"mnc":"usiha gerixembi","zhDesc":"星光闪烁"}
 {"mnc":"usiha oron","zhDesc":"星辰"}
 {"mnc":"usiha seri","zhDesc":"星稀"}
@@ -16532,13 +16535,10 @@
 {"mnc":"usun","zhDesc":"乌孙（山），腥臭的"}
 {"mnc":"usun","zhDesc":"厌恶、气息"}
 {"mnc":"usun alin","zhDesc":"乌孙山"}
-{"mnc":"usurs`embi","zhDesc":"嫌弃，憎恶"}
+{"mnc":"usurs'embi","zhDesc":"嫌弃，憎恶"}
 {"mnc":"usurshembi","zhDesc":"厌烦"}
 {"mnc":"usurxembi","zhDesc":"嫌弃、憎恶"}
 {"mnc":"us~hachun","zhDesc":"怨恼"}
-{"mnc":"us’hacun","zhDesc":"恼怒的、怨恨的"}
-{"mnc":"us’hambi","zhDesc":"嗔恼、怨恨"}
-{"mnc":"us’he","zhDesc":"精液"}
 {"mnc":"uta","zhDesc":"奶油糕"}
 {"mnc":"utala","zhDesc":"好多、许多"}
 {"mnc":"utala","zhDesc":"好多，许多"}
@@ -16576,7 +16576,7 @@
 {"mnc":"uyan","zhDesc":"稀饭"}
 {"mnc":"uyan","zhDesc":"稀，软"}
 {"mnc":"uyan buda","zhDesc":"稀饭"}
-{"mnc":"uyas`an","zhDesc":"泥鳅"}
+{"mnc":"uyas'an","zhDesc":"泥鳅"}
 {"mnc":"uyashambi","zhDesc":"反刍"}
 {"mnc":"uyashan","zhDesc":"泥鳅"}
 {"mnc":"uyaxan","zhDesc":"泥鳅"}
@@ -16631,7 +16631,7 @@
 {"mnc":"waiikv","zhDesc":"歪"}
 {"mnc":"waiikv taiikv","zhDesc":"歪歪扭扭"}
 {"mnc":"waiikvrambi","zhDesc":"歪斜"}
-{"mnc":"waiikvs`ambi","zhDesc":"歪着走"}
+{"mnc":"waiikvs'ambi","zhDesc":"歪着走"}
 {"mnc":"waiku daikv","zhDesc":"歪斜"}
 {"mnc":"waikv","zhDesc":"歪"}
 {"mnc":"waikv taikv","zhDesc":"歪歪扭扭"}
@@ -16655,12 +16655,12 @@
 {"mnc":"wakalambi","zhDesc":"斥责"}
 {"mnc":"wakalambi","zhDesc":"责怪、责备"}
 {"mnc":"wakalambi","zhDesc":"责怪，责备"}
-{"mnc":"wakas`ambi","zhDesc":"责怪，责备"}
+{"mnc":"wakas'ambi","zhDesc":"责怪，责备"}
 {"mnc":"wakashambi","zhDesc":"指责"}
 {"mnc":"wakashambi","zhDesc":"责怪"}
 {"mnc":"wakaxambi","zhDesc":"责怪、责备"}
 {"mnc":"wakjahvn","zhDesc":"腹大"}
-{"mnc":"waks`an","zhDesc":"蛤蟆，青蛙"}
+{"mnc":"waks'an","zhDesc":"蛤蟆，青蛙"}
 {"mnc":"wakshan","zhDesc":"蛤蟆"}
 {"mnc":"wakvn","zhDesc":"臭"}
 {"mnc":"wakxan","zhDesc":"蛤蟆、青蛙"}
@@ -16713,8 +16713,8 @@
 {"mnc":"warumbi","zhDesc":"发臭"}
 {"mnc":"warumbi","zhDesc":"发臭、变臭"}
 {"mnc":"warumbi","zhDesc":"发臭，变臭"}
-{"mnc":"was`akv","zhDesc":"耙子"}
-{"mnc":"was`ambi","zhDesc":"抓痒，耙"}
+{"mnc":"was'akv","zhDesc":"耙子"}
+{"mnc":"was'ambi","zhDesc":"抓痒，耙"}
 {"mnc":"wase","zhDesc":"斡色"}
 {"mnc":"wase","zhDesc":"瓦"}
 {"mnc":"wase","zhDesc":"瓦、袜子"}
@@ -16878,7 +16878,7 @@
 {"mnc":"werihe hethe","zhDesc":"遗产"}
 {"mnc":"werimbi","zhDesc":"留、存留、留给"}
 {"mnc":"werimbi","zhDesc":"留，存留，留给"}
-{"mnc":"weris`embi","zhDesc":"察访，注意，留神"}
+{"mnc":"weris'embi","zhDesc":"察访，注意，留神"}
 {"mnc":"werixembi","zhDesc":"察访、注意、留神"}
 {"mnc":"werumbi","zhDesc":"冻肉解冻"}
 {"mnc":"wesibumbi","zhDesc":"升用、提拔、上升、升高"}
@@ -17131,8 +17131,8 @@
 {"mnc":"xungge banjin","zhDesc":"文化生活"}
 {"mnc":"xungge efin","zhDesc":"文艺会演"}
 {"mnc":"xunggeri","zhDesc":"雅"}
+{"mnc":"xunggeri ses'heri","zhDesc":"雅俗"}
 {"mnc":"xunggeri sesheri","zhDesc":"雅俗"}
-{"mnc":"xunggeri ses’heri","zhDesc":"雅俗"}
 {"mnc":"xunggeyan","zhDesc":"高条，细高，苗条"}
 {"mnc":"xunggitun","zhDesc":"机器"}
 {"mnc":"xunggiya","zhDesc":"幽雅的、优美的"}
@@ -17252,7 +17252,7 @@
 {"mnc":"yadahvn","zhDesc":"贫穷，稀疏"}
 {"mnc":"yadahvn fusihvn","zhDesc":"贫贱"}
 {"mnc":"yadahvn joboshvn","zhDesc":"贫困"}
-{"mnc":"yadahvs`ambi","zhDesc":"饿"}
+{"mnc":"yadahvs'ambi","zhDesc":"饿"}
 {"mnc":"yadahvxambi","zhDesc":"饿"}
 {"mnc":"yadali cecike","zhDesc":"画眉"}
 {"mnc":"yadalinggu","zhDesc":"虚弱、弱、弱小的"}
@@ -17359,8 +17359,8 @@
 {"mnc":"yamjiha","zhDesc":"天晚"}
 {"mnc":"yamjimbi","zhDesc":"天晚、天黑"}
 {"mnc":"yamjimbi","zhDesc":"天晚，天黑"}
+{"mnc":"yamjis'hvn","zhDesc":"傍晚"}
 {"mnc":"yamjishvn","zhDesc":"傍晚"}
-{"mnc":"yamjis’hvn","zhDesc":"傍晚"}
 {"mnc":"yamjitala","zhDesc":"直至晚"}
 {"mnc":"yamka","zhDesc":"(aimaka) inenggi\t有一日"}
 {"mnc":"yamtun","zhDesc":"气喘(病)"}
@@ -17395,8 +17395,8 @@
 {"mnc":"yanggvhe","zhDesc":"鹦"}
 {"mnc":"yangkuungga/lambi","zhDesc":"歌唱"}
 {"mnc":"yangkvnggalambi","zhDesc":"(歌)唱"}
-{"mnc":"yangs`an","zhDesc":"唠叨，聒噪"}
-{"mnc":"yangs`arambi","zhDesc":"撒赖，唠叨"}
+{"mnc":"yangs'an","zhDesc":"唠叨，聒噪"}
+{"mnc":"yangs'arambi","zhDesc":"撒赖，唠叨"}
 {"mnc":"yangsakv","zhDesc":"锄头"}
 {"mnc":"yangsambi","zhDesc":"耘草、除草、锄地"}
 {"mnc":"yangsambi","zhDesc":"耘草，除草，锄地"}
@@ -17432,12 +17432,12 @@
 {"mnc":"yargiyan baiita","zhDesc":"事实"}
 {"mnc":"yargiyan baita","zhDesc":"事实"}
 {"mnc":"yargiyan etehe juktehen","zhDesc":"实胜寺"}
-{"mnc":"yargiyan tas`an","zhDesc":"虚实"}
+{"mnc":"yargiyan tas'an","zhDesc":"虚实"}
 {"mnc":"yargiyan taxan","zhDesc":"虚实"}
 {"mnc":"yargiyangga gebsun","zhDesc":"具体名词"}
+{"mnc":"yargiyas'hvn","zhDesc":"实际"}
 {"mnc":"yargiyashvn","zhDesc":"实际"}
 {"mnc":"yargiyasun","zhDesc":"实词"}
-{"mnc":"yargiyas’hvn","zhDesc":"实际"}
 {"mnc":"yarha","zhDesc":"豹"}
 {"mnc":"yarha","zhDesc":"豹皮"}
 {"mnc":"yarhuudambi","zhDesc":"牵"}
@@ -17473,7 +17473,7 @@
 {"mnc":"yasa","zhDesc":"眼睛，眼儿"}
 {"mnc":"yasa arambi","zhDesc":"递眼色"}
 {"mnc":"yasa faha","zhDesc":"眼珠"}
-{"mnc":"yasa jergis`embi","zhDesc":"目光恍惚"}
+{"mnc":"yasa jergis'embi","zhDesc":"目光恍惚"}
 {"mnc":"yasa jerkixembi","zhDesc":"目光恍惚"}
 {"mnc":"yasai elden","zhDesc":"眼光、目光"}
 {"mnc":"yasai elden","zhDesc":"眼光，目光"}
@@ -17544,7 +17544,7 @@
 {"mnc":"yekengge","zhDesc":"大、大的"}
 {"mnc":"yekengge","zhDesc":"大，大的"}
 {"mnc":"yekengge haha","zhDesc":"大丈夫"}
-{"mnc":"yekers`embi","zhDesc":"打趣，招惹"}
+{"mnc":"yekers'embi","zhDesc":"打趣，招惹"}
 {"mnc":"yekerxembi","zhDesc":"打趣、招惹"}
 {"mnc":"yekse","zhDesc":"神帽"}
 {"mnc":"yekserhen","zhDesc":"蝎虎子"}
@@ -17598,7 +17598,7 @@
 {"mnc":"yertembi","zhDesc":"惭愧"}
 {"mnc":"yertembi","zhDesc":"愧、羞"}
 {"mnc":"yertembi","zhDesc":"愧，羞"}
-{"mnc":"yertes`embi","zhDesc":"羞愧，惭愧"}
+{"mnc":"yertes'embi","zhDesc":"羞愧，惭愧"}
 {"mnc":"yerteshembi","zhDesc":"羞愧"}
 {"mnc":"yertexembi","zhDesc":"羞愧、惭愧"}
 {"mnc":"yeru","zhDesc":"洞 满族古称"}
@@ -17652,7 +17652,7 @@
 {"mnc":"yohoron","zhDesc":"沟渠"}
 {"mnc":"yohoron","zhDesc":"渠"}
 {"mnc":"yohoronombi","zhDesc":"冲成沟"}
-{"mnc":"yojohos`ombi","zhDesc":"很痒"}
+{"mnc":"yojohos'ombi","zhDesc":"很痒"}
 {"mnc":"yojohoxombi","zhDesc":"很痒"}
 {"mnc":"yokchin","zhDesc":"容貌"}
 {"mnc":"yokcin akv","zhDesc":"貌陋"}
@@ -17671,7 +17671,7 @@
 {"mnc":"yonggan","zhDesc":"沙"}
 {"mnc":"yonggan","zhDesc":"沙子"}
 {"mnc":"yonggan aisin","zhDesc":"沙金"}
-{"mnc":"yonggan hoos`an","zhDesc":"沙纸"}
+{"mnc":"yonggan hoos'an","zhDesc":"沙纸"}
 {"mnc":"yonggan hooxan","zhDesc":"沙纸"}
 {"mnc":"yonggan jubki","zhDesc":"沙滩"}
 {"mnc":"yonggan werembi","zhDesc":"淘沙"}
@@ -17728,7 +17728,7 @@
 {"mnc":"yoyombi","zhDesc":"衰落、逐渐下降、缩小"}
 {"mnc":"yoyombi","zhDesc":"衰落，逐渐下降，缩小"}
 {"mnc":"yozhohoshom/bi","zhDesc":"发奇痒"}
-{"mnc":"yuburs`embi","zhDesc":"拱动"}
+{"mnc":"yuburs'embi","zhDesc":"拱动"}
 {"mnc":"yuburxembi","zhDesc":"拱动"}
 {"mnc":"yukuri","zhDesc":"于库礼"}
 {"mnc":"yukvmbi","zhDesc":"收缩、蜷缩、缩短"}
