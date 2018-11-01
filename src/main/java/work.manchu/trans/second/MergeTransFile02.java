@@ -1,32 +1,46 @@
 package work.manchu.trans.second;
 
 import com.alibaba.fastjson.JSON;
+import lombok.extern.slf4j.Slf4j;
 import work.manchu.parse.vo.ManchuLineMutilDescVO;
 import work.manchu.trans.TransNodeProcesser;
-import work.manchu.util.SymbolUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
-public class TransMergeFile01 {
+@Slf4j
+public class MergeTransFile02 {
 
     public static void main(String[] args) throws IOException {
 
 
 
         List<ManchuLineMutilDescVO> list =
-                read("output/trans/letterLowerCaseBeginMergeDesc_json.json");
+                read("output/trans/trans_letterLowerCaseBeginMergeDesc_json.json");
 
 
-        trans(list);
+        //trans(list);
 
-        List<String> list02 = list.stream().sorted(Comparator.comparing(ManchuLineMutilDescVO::getMnc)).map(JSON::toJSONString)
-                .collect(Collectors.toList());
-        Files.write(Paths.get("output/trans/trans_letterLowerCaseBeginMergeDesc_json.json"), list02);
+        Map<String, List<ManchuLineMutilDescVO>> map02 = list.stream().sorted(Comparator.comparing(ManchuLineMutilDescVO::getMncOld))
+                .collect(Collectors.groupingBy(ManchuLineMutilDescVO::getMncOld));
+
+
+        List<String> list01 = new ArrayList<>();
+        map02.forEach((k,v)->{
+            if(v.size() >1){
+                log.info("v is duplicated k:{}, v:{}", k, v);
+                list01.add(k+"|"+ JSON.toJSONString(JSON.toJSONString(v)));
+            }
+
+
+        });
+        Files.write(Paths.get("output/trans/merge_mnc_trans_letterLowerCaseBeginMergeDesc_json.json"), list01);
     }
 
     private static void trans(List<ManchuLineMutilDescVO> list) throws IOException {
@@ -39,8 +53,6 @@ public class TransMergeFile01 {
             if(indexT> 0){
                 mnc = mnc.substring(0, indexT);
             }
-
-            mnc = SymbolUtil.replaceQuoteSymbole(mnc);
             String mncOld = trans(mnc);
 
             vo.setMnc(mnc);

@@ -6,6 +6,7 @@ import work.manchu.util.StringUtil;
 import work.manchu.parse.vo.ManchuLineMutilDescVO;
 import work.manchu.parse.vo.ManchuLineVO;
 import work.manchu.util.LangUtil;
+import work.manchu.util.SymbolUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -20,6 +21,8 @@ public class ParseMergeFiles01 {
 
 
         Set<ManchuLineVO> set = parseFile("output/letterLowerCasebegin_output-merge.txt");
+
+        set = transMncQuote(set);
         List<String> list = set.stream().sorted(Comparator.comparing(ManchuLineVO::getMnc)).map(JSON::toJSONString)
                 .collect(Collectors.toList());
         Files.write(Paths.get("output/trans/letterLowerCaseBegin_json.json"), list);
@@ -33,6 +36,16 @@ public class ParseMergeFiles01 {
 
         Files.write(Paths.get("output/trans/trans_letterLowerCaseBeginMergeDesc_json.json"), list02);
 
+    }
+
+    public static Set<ManchuLineVO> transMncQuote(Set<ManchuLineVO> set){
+
+        for(ManchuLineVO vo : set){
+            String mnc = SymbolUtil.replaceQuoteSymbole(vo.getMnc());
+            vo.setMnc(mnc);
+        }
+
+        return set;
     }
     public static List<ManchuLineMutilDescVO> toManchuLineMutilDescVO(Set<ManchuLineVO> set){
 
