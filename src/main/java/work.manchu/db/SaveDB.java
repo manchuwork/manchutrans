@@ -25,21 +25,27 @@ public class SaveDB {
 
 
         List<ManchuLineMutilDescVO> list =
-                read("output/trans/trans_letterLowerCaseBeginMergeDesc_json.json");
+                read("output/trans/trans_OldMnc_letterLowerCaseBeginMergeDesc_json.json");
 
         for(ManchuLineMutilDescVO vo :list){
-            String manchu = vo.getMncOld();
-            // # ' ` '  ' ʼ ' '。'，` ~ "'  ’ <,'‘’ ' ` '' "" ` ` '
-            //# ` ' ʼ  ＇ '   ' ` ` b'
-            manchu = manchu.replace("'","'")
-            .replace("`","'");
-            String trans = vo.getMnc();
-            String pic = "";
-            String chinese = getDesc(vo);
-            Long user_id = 2L;
-            int row = insert(manchu, trans, pic, chinese, user_id);
 
-            log.info("Save db,row:{} conn:{}, conn.isClosed:{}",row, conn, conn.isClosed());
+            try{
+                String manchu = vo.getMncOld();
+                // # ' ` '  ' ʼ ' '。'，` ~ "'  ’ <,'‘’ ' ` '' "" ` ` '
+                //# ` ' ʼ  ＇ '   ' ` ` b'
+                manchu = manchu.replace("'","'")
+                        .replace("`","'");
+                String trans = vo.getMnc();
+                String pic = "";
+                String chinese = getDesc(vo);
+                Long user_id = 2L;
+                int row = insert(manchu, trans, pic, chinese, user_id);
+
+                log.info("Save db,row:{} conn:{}, conn.isClosed:{}",row, conn, conn.isClosed());
+            }catch (Exception e){
+                log.error("Save db, encounter error vo:{}", vo, e);
+            }
+
 
         }
 
