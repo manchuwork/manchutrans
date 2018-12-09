@@ -2,8 +2,8 @@ package work.manchu.trans;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
-import work.manchu.util.StringUtil;
 import work.manchu.util.LangUtil;
+import work.manchu.util.StringUtil;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -17,12 +17,12 @@ import java.util.Map;
  */
 @Slf4j
 
-public class TransToManchu implements TransNode{
+public class TransToManchu02 implements TransNode{
 
 
     private final Map<String,String> map;
 
-    public TransToManchu() throws IOException {
+    public TransToManchu02() throws IOException {
 
         String text = Files.readString(Paths.get("src/main/resources/transmap.json"));
         Map tmp = JSON.parseObject(text, HashMap.class);
@@ -40,10 +40,10 @@ public class TransToManchu implements TransNode{
             }
 
             String tmp = map.get(letter);
-            if(tmp == null){
-                log.error( "{}, not found,when opt text:{}",letter,text);
-                throw new UnsupportedEncodingException(letter + ", not supported,when opt ,text:"+text);
-            }
+//            if(tmp == null){
+//                log.error( "{}, not found,when opt text:{}",letter,text);
+//                throw new UnsupportedEncodingException(letter + ", not supported,when opt ,text:"+text);
+//            }
             sb.append(tmp);
         }
         return sb.toString();
