@@ -1,4 +1,4 @@
-package work.manchu.trans;
+package work.manchu.trans.node;
 
 import java.io.UnsupportedEncodingException;
 

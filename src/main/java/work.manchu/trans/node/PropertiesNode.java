@@ -1,49 +1,51 @@
-package work.manchu.trans;
+package work.manchu.trans.node;
 
 import com.alibaba.fastjson.util.IOUtils;
 import lombok.extern.slf4j.Slf4j;
+import work.manchu.util.OrderedProperties;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Properties;
 
 @Slf4j
-public class TransSimbolReplace implements TransNode {
+public class PropertiesNode implements TransNode {
 
-    private Map<String,String> map;
+    protected Map<String, String> map;
 
-    public TransSimbolReplace() throws IOException {
+    public PropertiesNode(String resource) throws IOException {
 
-        Path path = Paths.get("src/main/resources/mnc_symbol_trans.properties") ;//TransToManchu.class.getResource("mulinder_first_trans.properties").getPath();
-        log.info("TransSimbolReplace, path"+path);
+        Path path = Paths.get("src/main/resources/"+ resource);
+        log.info("{}, path:{}" ,this.getClass().getName(), path);
         BufferedReader in = Files.newBufferedReader(path);
-        Properties tmp = new Properties();
+        Properties tmp = new OrderedProperties();
 
         tmp.load(in);
 
         IOUtils.close(in);
 
-        Map tmpMap = new HashMap();
+        LinkedHashMap tmpMap = new LinkedHashMap();
 
         for (String name :
                 tmp.stringPropertyNames()) {
             tmpMap.put(name, tmp.getProperty(name));
         }
 
-        map = Map.copyOf(tmpMap);
+        map = tmpMap;
     }
 
     @Override
     public String trans(String text) {
 
         String tmp = text;
+
 //        log.info("trans map:{}",map);
-        for(String key : map.keySet()){
+        for (String key : map.keySet()) {
             tmp = text.replace(key, map.get(key));
             text = tmp;
         }

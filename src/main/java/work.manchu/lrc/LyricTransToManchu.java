@@ -23,13 +23,27 @@ public class LyricTransToManchu {
 
 
         Path pathInputs = Paths.get("lyric/input/");
+
+        String ignore_file_name = LyricTransToManchu.class.getResource("/ignore_file_list.txt").getFile();
+
+        List<String> ignoreFiles = Files.readAllLines(Paths.get(ignore_file_name));
+
         Files.walkFileTree(pathInputs,new SimpleFileVisitor<Path>(){
             @Override
             public FileVisitResult visitFile(Path path, BasicFileAttributes attrs)
                     throws IOException {
+
+                for(String ignoreFile : ignoreFiles){
+                    if(path.toFile().toString().endsWith(ignoreFile)){
+                        return super.visitFile(path, attrs);
+                    }
+                }
+
 //                if(file.toString().endsWith(".pdf")){
 //                    System.out.println(file.getFileName());
 //                }
+
+
 
                 try {
                     log.info("opt path:" + path.getFileName());

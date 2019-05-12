@@ -1,15 +1,15 @@
-package work.manchu.trans;
+package work.manchu.trans.node;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
-import work.manchu.util.StringUtil;
 import work.manchu.util.LangUtil;
+import work.manchu.util.StringUtil;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -17,7 +17,7 @@ import java.util.Map;
  */
 @Slf4j
 
-public class TransToManchu implements TransNode{
+public class TransToManchu implements TransNode {
 
 
     private final Map<String,String> map;
@@ -25,8 +25,8 @@ public class TransToManchu implements TransNode{
     public TransToManchu() throws IOException {
 
         String text = Files.readString(Paths.get("src/main/resources/transmap.json"));
-        Map tmp = JSON.parseObject(text, HashMap.class);
-        map = Map.copyOf(tmp);
+        Map tmp = JSON.parseObject(text, LinkedHashMap.class);
+        map = tmp;
     }
     @Override
     public String trans(String text) throws UnsupportedEncodingException {
