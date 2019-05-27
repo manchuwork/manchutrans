@@ -35,7 +35,8 @@ public class LangUtil {
         return chStopWords.contains(text);
     }
 
-    private static List<String> simbol = Arrays.asList(" ","/"," '","　","&","~","_","5","0","3","4","1","2","6","7","8","9");
+    private static List<String> simbol = Arrays.asList(" ","/"," '","　","&","~","_","5","0","3","4","1","2","6","7","8","9","，","(",")","（","）","<",">","《","》","。",":",";",
+            "{", "}","+","=","*","@","#","$","%","^","-","_","?");
 
     public static boolean isSimbol(String letter) {
         checkParam(letter);

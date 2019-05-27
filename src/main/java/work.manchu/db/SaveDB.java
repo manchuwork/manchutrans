@@ -76,4 +76,48 @@ public class SaveDB {
 
         return row;
     }
+
+    public static int deleteById(long id) throws SQLException {
+        log.info("deleteById:{}", id);
+
+        Object[] params = { id};
+        String sql = "delete from dicts where id = ?";
+
+        int row = JdbcUtil.executeUpdate(sql, params);
+        log.info("deleteById parms:{}, afectRow :{}", params, row);
+
+        return row;
+    }
+
+    public static void updateMncTransById(String mncTrans, long id) throws SQLException {
+        log.info("updateMncTransById , trans:{}, id:{}",mncTrans , id);
+
+        Object[] params = { mncTrans, id};
+        String sql = "update dicts set trans=? where id = ?";
+
+        int row = JdbcUtil.executeUpdate(sql, params);
+        log.info("updateMncTransById parms:{}, afectRow :{}", params, row);
+
+//        return row;
+    }
+
+    public static void updateChById(String joinCh, Long id) throws SQLException {
+        log.info("updateMncTransById , joinCh:{}, id:{}",joinCh , id);
+
+        Object[] params = { joinCh, id};
+        String sql = "update dicts set chinese =? where id = ?";
+
+        int row = JdbcUtil.executeUpdate(sql, params);
+        log.info("updateMncTransById parms:{}, afectRow :{}", params, row);
+    }
+
+    public static void updateMncById(String mnc_2, Long id) throws SQLException {
+        log.info("updateMncById , mnc_2:{}, id:{}",mnc_2 , id);
+
+        Object[] params = { mnc_2, id};
+        String sql = "update dicts set manchu =? where id = ?";
+
+        int row = JdbcUtil.executeUpdate(sql, params);
+        log.info("updateMncById params:{}, afectRow :{}", params, row);
+    }
 }

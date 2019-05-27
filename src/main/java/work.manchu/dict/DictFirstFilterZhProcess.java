@@ -3,30 +3,28 @@ package work.manchu.dict;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import lombok.extern.slf4j.Slf4j;
-import work.manchu.db.SaveDB;
-import work.manchu.trans.node.OldDictTransNode;
+import work.manchu.trans.node.DictFilterZhNode;
 import work.manchu.util.CsvUtil;
-import work.manchu.util.LangUtil;
-import work.manchu.util.StringUtil;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
 @Slf4j
-public class DictFirstProcess {
+public class DictFirstFilterZhProcess {
+
+    static String[] filterWords = {"?部 ??\uE78F\uE49F滭??\uE4E0 hali de dabsun banjirak?ofi dabsun fuifure de jobo?ho 满文"};
 
     public static void main(String[] args) throws IOException {
-        ///Users/heshen/github/manchu/manchutrans/output_dict/output-first_zh_filter.txt_left
-        opt("input_dict", "dicts_v2.csv", "output_dict", "output-first_trans_v2.txt");
-
-//        opt("input_dict", "dicts.csv", "output_dict", "output-first.txt");
+        opt("input_dict", "dicts.csv", "output_dict", "output-first_zh_filter.txt");
 
 
     }
@@ -43,59 +41,37 @@ public class DictFirstProcess {
         }
 
 
-//        if (!needOpt(f)) {
-//
-//            log.warn("do not need opt file:{}", file);
-//
-//            return;
-//        }
+        if (!needOpt(f)) {
 
+            log.warn("do not need opt file:{}", file);
+
+            return;
+        }
         CSVReader csvReader = CsvUtil.createCSVReader(f);
 
-        OldDictTransNode transNodeProcesser = new OldDictTransNode();
-
+        DictFilterZhNode transNodeProcesser = new DictFilterZhNode();
         CSVWriter csvWriter = CsvUtil.createCSVWriter(Path.of(outputDir ,outputFile).toFile());
 
         CSVWriter csvWriterError = CsvUtil.createCSVWriter(Path.of(outputDir ,"myerror_" + outputFile).toFile());
 
-        List<String[]> errorList = new ArrayList<>();
+        CSVWriter csvWriterLeft = CsvUtil.createCSVWriter(Path.of(outputDir ,"left__" + outputFile).toFile());
+
+
+        List<String> errorList = new ArrayList<>();
         Iterator<String[]> iterator = csvReader.iterator();
         while (iterator.hasNext()) {
 
             String[] values = iterator.next();
-
 //            String mnc = values[1];
 
             String mncTrans = values[2];
             String updated_at_str = values[6];
             String created_at_str = values[7];
             DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");
-            LocalDateTime updated_at = null;
-            LocalDateTime created_at = null;
-
-            Long id = Long.parseLong(values[0]);
-            try{
-
-                updated_at = LocalDateTime.parse(updated_at_str,dateTimeFormatter);
-
-            }catch (Exception e){
-                log.info("LocalDateTime.parse,id:{},updated_at_str:{},",id,updated_at_str,dateTimeFormatter );
-            }
-
-            try{
-                created_at = LocalDateTime.parse(created_at_str,dateTimeFormatter);
-
-            }catch (Exception e){
-                log.info("LocalDateTime.parse,id:{}, created_at_str:{},",id,created_at_str,dateTimeFormatter );
-            }
+            LocalDateTime updated_at = LocalDateTime.parse(updated_at_str,dateTimeFormatter);
+            LocalDateTime created_at = LocalDateTime.parse(created_at_str,dateTimeFormatter);
 
 
-
-            if(updated_at.isAfter(LocalDateTime.of(2019,1,1,0,0))){
-                csvWriterError.writeNext(values);
-                csvWriterError.flush();
-                continue;
-            }
             String mncTrans_v2 = mncTrans.replace("&nbsp;"," ");
             try {
                 String mncTrans_v3 = transNodeProcesser.trans(mncTrans_v2);
@@ -110,34 +86,23 @@ public class DictFirstProcess {
                     csvWriter.writeNext(valueSave);
                     csvWriter.flush();
 
-                    SaveDB.updateMncTransById(mncTrans_v3,Long.parseLong(values[0]));
-
-                }
-
-                if(mncTrans_v2.endsWith("k'") || mncTrans_v2.contains("k' ") || mncTrans_v2.contains("k' ")){
-                    valueSave[values.length] = "k'_____"+mncTrans_v3;
-                    log.error("updated_at:{},created_at:{}, mncTrans:{},mncTrans_v2:{},  mncTrans_v3:{}", updated_at, created_at , mncTrans , mncTrans_v2, mncTrans_v3);
-                    errorList.add(values);
-
-                    csvWriter.writeNext(valueSave);
-                    csvWriter.flush();
+//                    SaveDB.deleteById(Long.parseLong(values[0]));
+                }else {
+                    csvWriterLeft.writeNext(values);
+                    csvWriterLeft.flush();
                 }
             } catch (Exception e) {
-                log.error("encounter error DictFirstProcess, {}",values,e);
-                errorList.add(values);
+                log.error("{}",values,e);
+                errorList.add(Arrays.toString(values));
                 //throw e;
             }
 //            log.info("mnc:{}, mncTrans:{}", mnc, mncTrans);
 //            log.info("values:{}", Arrays.toString(values));
         }
         csvWriter.close();
-        csvWriterError.close();
+        Files.write(Paths.get(outputDir, "errorRow_" + outputFile), errorList);
 
-        CSVWriter csvWriterErrorRow = CsvUtil.createCSVWriter(Path.of(outputDir ,"errorRow_" + outputFile).toFile());
-
-        csvWriterErrorRow.writeAll(errorList);
-//        Files.write(Paths.get(outputDir, "errorRow_" + outputFile), errorList);
-
+        csvWriterLeft.close();
 //        csvReader.readHeaders();
 
 
@@ -177,37 +142,7 @@ public class DictFirstProcess {
 
     }
 
-    private static boolean isLowerCaseBegin(String line) {
 
-        List<String> list = StringUtil.listOneByOne(line);
-
-        if (list.size() < 0) {
-            log.error("line size <0 , line:{}", line);
-        }
-
-        if (LangUtil.isEnLowerCase(list.get(0))) {
-            return true;
-        }
-        log.info("not en first, line:{}", line);
-
-        return false;
-    }
-
-    private static boolean isLetterBegin(String line) {
-
-        List<String> list = StringUtil.listOneByOne(line);
-
-        if (list.size() < 0) {
-            log.error("line size <0 , line:{}", line);
-        }
-
-        if (LangUtil.isEn(list.get(0))) {
-            return true;
-        }
-        log.info("not en first, line:{}", line);
-
-        return false;
-    }
 
     private static boolean needOpt(File file) {
         if (file.getName().endsWith(".csv")) {
@@ -215,4 +150,7 @@ public class DictFirstProcess {
         }
         return false;
     }
+
+
+
 }

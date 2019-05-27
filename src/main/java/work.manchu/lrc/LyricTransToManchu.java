@@ -28,6 +28,7 @@ public class LyricTransToManchu {
 
         List<String> ignoreFiles = Files.readAllLines(Paths.get(ignore_file_name));
 
+        List<String> errorList = new ArrayList<>();
         Files.walkFileTree(pathInputs,new SimpleFileVisitor<Path>(){
             @Override
             public FileVisitResult visitFile(Path path, BasicFileAttributes attrs)
@@ -44,16 +45,18 @@ public class LyricTransToManchu {
 //                }
 
 
+                String o = null;
 
                 try {
                     log.info("opt path:" + path.getFileName());
                     List<String> list = Files.readAllLines(path);
 
                     List<String> list01 = new ArrayList<>();
-                    for (String o : list) {
+                    for (String one : list) {
                         String str = null;
 
-                        str = trans(o);
+                        o = one;
+                        str = trans(one);
 
                         if (str == null) {
                             continue;
@@ -62,15 +65,22 @@ public class LyricTransToManchu {
                         list01.add(str);
                     }
 
-                    Files.write(Paths.get("lyric/output/mnc_" + path.getFileName()), list01);
+                    Files.write(Paths.get("lyric/output/mnc_" + path.getFileName()+".lrc"), list01);
                 } catch (UnsupportedEncodingException e) {
-                    e.printStackTrace();
+                    errorList.add("o:{} "+o+",fileName:"+ path.getFileName() + ",msg:"+e.getMessage());
+                    log.error("UnsupportedEncodingException",e);
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    errorList.add("o:{} "+o+",fileName:"+ path.getFileName() + ",msg:"+e.getMessage());
+
+                    log.error("IOException",e);
+
                 }
                 return super.visitFile(path, attrs);
             }
         });
+
+        Files.write(Paths.get("lyric/output/" + "errorList.txt"), errorList);
+
 
 
     }
